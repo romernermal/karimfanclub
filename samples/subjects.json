@@ -4,7 +4,10 @@
       "id": "first-aid",
       "name": "First Aid",
       "tests": [
-        { "id": "LESSON 1", "fileName": "First_Aid_Lesson_1.json" }
+        { "id": "LESSON 1", "fileName": "First_Aid_Lesson_1.json" },
+        { "id": "LESSON 2", "fileName": "First_Aid_Lesson_2.json" },
+        { "id": "LESSON 3", "fileName": "First_Aid_Lesson_3.json" },
+        { "id": "First Quiz ni Sir", "fileName": "quiz1.json" }
       ]
     }
   ]

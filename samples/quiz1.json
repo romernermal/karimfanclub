@@ -1,0 +1,277 @@
+{
+  "title": "Principles of Emergency Care & BLS - Enumeration & Identification Quiz",
+  "testType": "identification",
+  "questions": [
+    {
+      "id": "bls-enum-01",
+      "question": "How many Emergency Action Principles are there?",
+      "type": "identification",
+      "answer": "5"
+    },
+    {
+      "id": "bls-enum-02",
+      "type": "fill_blanks",
+      "question": "The five Emergency Action Principles are: 1. Survey the scene (Check), 2. Activate medical assistance (Call), 3. _____ (Care/Check ABCs), 4. Secondary Assessment (Head-to-toe exam), and 5. Transport/Definitive Care.",
+      "answers": ["Primary Assessment"]
+    },
+    {
+      "id": "bls-enum-03",
+      "type": "fill_blanks",
+      "question": "The five Emergency Action Principles include: Survey the scene, _____, Primary Assessment, Secondary Assessment, and Transport/Definitive Care.",
+      "answers": ["Activate medical assistance"]
+    },
+    {
+      "id": "bls-enum-04",
+      "question": "What is the fourth Emergency Action Principle?",
+      "type": "identification",
+      "answer": "Secondary Assessment"
+    },
+    {
+      "id": "bls-enum-05",
+      "question": "What is the fifth Emergency Action Principle?",
+      "type": "identification",
+      "answer": "Transport/Definitive Care"
+    },
+    {
+      "id": "bls-enum-06",
+      "type": "fill_blanks",
+      "question": "The Principles of Emergency Care include: 1. Do no further harm, 2. _____ (treat the most life-threatening first), 3. Seek consent, 4. Maintain airway, breathing, and circulation, and 5. Reassure the victim.",
+      "answers": ["Triage"]
+    },
+    {
+      "id": "bls-enum-07",
+      "type": "fill_blanks",
+      "question": "The Principles of Emergency Care include: Do no further harm, Triage, _____, Maintain airway, breathing, and circulation, and Reassure the victim.",
+      "answers": ["Seek consent"]
+    },
+    {
+      "id": "bls-enum-08",
+      "question": "What is the fourth Principle of Emergency Care?",
+      "type": "identification",
+      "answer": "Maintain airway, breathing, and circulation"
+    },
+    {
+      "id": "bls-enum-09",
+      "type": "fill_blanks",
+      "question": "When activating medical assistance, the information to remember includes: 1. Your location, 2. The _____ of the emergency/injury, 3. The victim's condition and age, 4. Your name and contact number, and 5. Do not hang up until the dispatcher tells you to.",
+      "answers": ["nature"]
+    },
+    {
+      "id": "bls-enum-10",
+      "question": "When activating medical assistance, what should you NOT do until the dispatcher tells you to?",
+      "type": "identification",
+      "answer": "Hang up"
+    },
+    {
+      "id": "bls-enum-11",
+      "type": "fill_blanks",
+      "question": "AID in Initial Response stands for: Assess the scene, Identify the problem, and _____.",
+      "answers": ["Do no further harm"]
+    },
+    {
+      "id": "bls-enum-12",
+      "question": "In the Golden Rules of Emergency Care (DON'Ts), what should you NOT give to an unconscious victim?",
+      "type": "identification",
+      "answer": "Food or drink"
+    },
+    {
+      "id": "bls-enum-13",
+      "question": "In the Golden Rules of Emergency Care (DON'Ts), what should you NOT insert into the victim's mouth?",
+      "type": "identification",
+      "answer": "Any objects"
+    },
+    {
+      "id": "bls-enum-14",
+      "question": "In the Golden Rules of Emergency Care (DON'Ts), what should you NOT do to the victim except to get help?",
+      "type": "identification",
+      "answer": "Leave the victim alone"
+    },
+    {
+      "id": "bls-enum-15",
+      "type": "fill_blanks",
+      "question": "The Golden Rules of Emergency Care (DON'Ts) include: 1. DO NOT move the victim unless in immediate danger, 2. DO NOT give _____ to an unconscious victim, 3. DO NOT insert any objects into the victim's mouth, 4. DO NOT leave the victim alone, 5. DO NOT remove _____ of an injured victim unless necessary.",
+      "answers": ["food or drink", "protective clothing"]
+    },
+    {
+      "id": "bls-enum-16",
+      "type": "fill_blanks",
+      "question": "The steps in the CAB-D approach are: C - _____, A - Airway, B - Breathing, D - Defibrillation.",
+      "answers": ["Circulation"]
+    },
+    {
+      "id": "bls-enum-17",
+      "question": "In the CAB-D approach, what does 'D' stand for?",
+      "type": "identification",
+      "answer": "Defibrillation"
+    },
+    {
+      "id": "bls-enum-18",
+      "type": "fill_blanks",
+      "question": "The basic steps in Hands-Only CPR during infectious outbreaks are: 1. Check responsiveness, 2. _____ (Call 911/117), 3. Start chest compressions, 4. Use an AED if available.",
+      "answers": ["Activate emergency medical services"]
+    },
+    {
+      "id": "bls-enum-19",
+      "question": "In Hands-Only CPR during infectious outbreaks, what is skipped to avoid disease transmission?",
+      "type": "identification",
+      "answer": "Mouth-to-mouth rescue breaths"
+    },
+    {
+      "id": "bls-enum-20",
+      "question": "List three indications of CPR.",
+      "type": "fill_blanks",
+      "question": "The indications of CPR are: Unconsciousness, _____, and No pulse.",
+      "answers": ["No breathing (or gasping)"]
+    },
+    {
+      "id": "bls-enum-21",
+      "type": "fill_blanks",
+      "question": "The Primary Assessment components (ABCDE) are: A - Airway, B - _____, C - Circulation, D - Disability/Deficit, E - Exposure/Environment.",
+      "answers": ["Breathing"]
+    },
+    {
+      "id": "bls-enum-22",
+      "question": "In the Primary Assessment (ABCDE), what does 'D' stand for?",
+      "type": "identification",
+      "answer": "Disability/Deficit"
+    },
+    {
+      "id": "bls-enum-23",
+      "question": "In the Primary Assessment (ABCDE), what does 'E' stand for?",
+      "type": "identification",
+      "answer": "Exposure/Environment"
+    },
+    {
+      "id": "bls-enum-24",
+      "type": "fill_blanks",
+      "question": "The SAMPLE history questions in Secondary Assessment are: S - Signs/Symptoms, A - _____, M - Medications, P - Past medical history, L - Last oral intake, E - Events.",
+      "answers": ["Allergies"]
+    },
+    {
+      "id": "bls-enum-25",
+      "type": "fill_blanks",
+      "question": "The SAMPLE history questions in Secondary Assessment are: S - Signs/Symptoms, A - Allergies, M - _____, P - Past medical history, L - Last oral intake, E - Events.",
+      "answers": ["Medications"]
+    },
+    {
+      "id": "bls-enum-26",
+      "type": "fill_blanks",
+      "question": "In the DCAP-BTLS head-to-toe assessment: D - Deformities, C - Contusions, A - Abrasions, P - _____, B - Burns, T - Tenderness, L - Lacerations, S - Swelling.",
+      "answers": ["Punctures/Penetrations"]
+    },
+    {
+      "id": "bls-enum-27",
+      "question": "In the DCAP-BTLS head-to-toe assessment, what does 'T' stand for?",
+      "type": "identification",
+      "answer": "Tenderness"
+    },
+    {
+      "id": "bls-enum-28",
+      "question": "In the DCAP-BTLS head-to-toe assessment, what does 'S' stand for?",
+      "type": "identification",
+      "answer": "Swelling"
+    },
+    {
+      "id": "bls-enum-29",
+      "question": "The acronym STOPSS indicates when to stop CPR. What does the first 'S' stand for?",
+      "type": "identification",
+      "answer": "Spontaneous breathing/circulation resumes"
+    },
+    {
+      "id": "bls-enum-30",
+      "type": "fill_blanks",
+      "question": "The STOPSS mnemonic for when to stop CPR includes: S - Spontaneous breathing/circulation resumes, T - The rescuer is exhausted, O - Ordered/Relieved by higher authority, P - _____ declares the victim dead, S - Scene becomes unsafe, S - Signs of death are obvious.",
+      "answers": ["Physician"]
+    },
+    {
+      "id": "bls-enum-31",
+      "question": "What does ROSC stand for?",
+      "type": "identification",
+      "answer": "Return Of Spontaneous Circulation"
+    },
+    {
+      "id": "bls-enum-32",
+      "question": "The emergency principle that requires checking if the area is safe for the rescuer, victim, and bystanders is called:",
+      "type": "identification",
+      "answer": "Scene Survey / Scene Safety"
+    },
+    {
+      "id": "bls-enum-33",
+      "question": "What is the emergency principle that involves calling EMS and starting CPR simultaneously?",
+      "type": "identification",
+      "answer": "Activate Medical Assistance / Call"
+    },
+    {
+      "id": "bls-enum-34",
+      "question": "What is the acronym used to remember patient history during secondary assessment?",
+      "type": "identification",
+      "answer": "SAMPLE"
+    },
+    {
+      "id": "bls-enum-35",
+      "question": "What is the maneuver used to relieve severe airway obstruction in adults?",
+      "type": "identification",
+      "answer": "Heimlich Maneuver"
+    },
+    {
+      "id": "bls-enum-36",
+      "question": "What is the law in the Philippines that mandates CPR training in schools and workplaces?",
+      "type": "identification",
+      "answer": "RA 10871"
+    },
+    {
+      "id": "bls-enum-37",
+      "question": "What is the recommended chest compression rate per minute during CPR?",
+      "type": "identification",
+      "answer": "100 to 120 compressions per minute"
+    },
+    {
+      "id": "bls-enum-38",
+      "question": "What is the recommended depth of chest compressions in adults?",
+      "type": "identification",
+      "answer": "2 inches (5 cm)"
+    },
+    {
+      "id": "bls-enum-39",
+      "question": "What is the emergency breathing rate for adults (seconds per breath)?",
+      "type": "identification",
+      "answer": "1 breath every 6 seconds"
+    },
+    {
+      "id": "bls-enum-40",
+      "question": "What artery is used to check the pulse in infants during rescue breathing?",
+      "type": "identification",
+      "answer": "Brachial Artery"
+    },
+    {
+      "id": "bls-enum-41",
+      "question": "What position is used when a victim starts breathing normally after CPR?",
+      "type": "identification",
+      "answer": "Recovery Position"
+    },
+    {
+      "id": "bls-enum-42",
+      "question": "What acronym is used to assess responsiveness (Alert, Voice, Pain, Unresponsive)?",
+      "type": "identification",
+      "answer": "AVPU"
+    },
+    {
+      "id": "bls-enum-43",
+      "question": "What is the emergency hotline number for Oro Rescue in Cagayan de Oro City?",
+      "type": "identification",
+      "answer": "911"
+    },
+    {
+      "id": "bls-enum-44",
+      "question": "What is the technique of tilting the head and lifting the chin to open the airway called?",
+      "type": "identification",
+      "answer": "Head-Tilt, Chin-Lift Maneuver"
+    },
+    {
+      "id": "bls-enum-45",
+      "question": "What drug is used by medical services to stimulate a stopped or severely slowed heart?",
+      "type": "identification",
+      "answer": "Epinephrine"
+    }
+  ]
+}

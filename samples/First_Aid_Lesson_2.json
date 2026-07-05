@@ -1,0 +1,341 @@
+{
+  "title": "Basic Life Support (BLS) - 45-Item Comprehensive Quiz",
+  "testType": "mcq",
+  "questions": [
+    {
+      "id": "bls-01",
+      "question": "According to the presentation, what is the leading cause of death in the Philippines and worldwide?",
+      "options": ["Stroke", "Heart Attacks", "Cancer", "Diabetes"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-02",
+      "question": "Once the heart ceases to function, a healthy human brain may survive without oxygen for up to how many minutes without permanent damage?",
+      "options": ["2 minutes", "4 minutes", "6 minutes", "10 minutes"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-03",
+      "question": "A typical EMS response time may take:",
+      "options": ["2-4 minutes", "4-6 minutes", "6-10 minutes", "10-15 minutes"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bls-04",
+      "question": "What percentage of Out of Hospital Cardiac Arrest (OHCA) cases receive bystander CPR in the Philippines?",
+      "options": ["5-10%", "10-16%", "20-25%", "30-40%"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-05",
+      "question": "What does BLS stand for in emergency care?",
+      "type": "identification",
+      "answer": "Basic Life Support"
+    },
+    {
+      "id": "bls-06",
+      "type": "fill_blanks",
+      "question": "Basic Life Support defines sequences of procedures performed to restore the circulation of _____ blood after a sudden pulmonary or cardiac arrest until full medical care is available.",
+      "answers": ["oxygenated"]
+    },
+    {
+      "id": "bls-07",
+      "question": "BLS does NOT include which of the following?",
+      "options": ["CPR", "Use of AED", "Use of drugs or invasive skills", "Airway management"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bls-08",
+      "question": "If CPR and defibrillation are done immediately after cardiac arrest, survival can increase by:",
+      "options": ["20%", "30%", "50%", "75%"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bls-09",
+      "question": "Sudden Cardiac Arrest chances of survival double with:",
+      "options": ["Bystander CPR only", "Onsite AEDs", "Ambulance transport", "Hospital admission"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-10",
+      "question": "Increased bystander CPR and AED use increases survival by more than:",
+      "options": ["30%", "50%", "63%", "80%"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bls-11",
+      "question": "The 'Samboy Lim Bill' lapsed into law on July 17, 2016 as:",
+      "options": ["RA 10871", "RA 10121", "RA 10667", "RA 10931"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bls-12",
+      "question": "What is the timeline for brain damage if the brain is without oxygen for 6-10 minutes?",
+      "options": ["Unlikely development", "Possibility of damage", "High probability of damage", "Probable brain damage"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bls-13",
+      "question": "The goal of resuscitation is to support and restore effective oxygenation, ventilation, and:",
+      "options": ["Circulation with return of intact neurologic function", "Only circulation", "Only breathing", "Only heart rate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bls-14",
+      "question": "What does ROSC stand for in resuscitation?",
+      "type": "identification",
+      "answer": "Return of Spontaneous Circulation"
+    },
+    {
+      "id": "bls-15",
+      "question": "ROSC is considered what type of goal in resuscitation?",
+      "options": ["Final goal", "Primary goal", "Intermediate goal", "Long-term goal"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bls-16",
+      "question": "The Chain of Survival was first introduced in what year?",
+      "options": ["1985", "1991", "1995", "2000"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-17",
+      "type": "fill_blanks",
+      "question": "The CHAIN OF SURVIVAL sequence of actions includes: P - Prevent arrest, A - Activate EMS, P - Provide CPR, A - Advance Life Support, P - _____ care, and R - Recovery.",
+      "answers": ["Post-cardiac arrest"]
+    },
+    {
+      "id": "bls-18",
+      "question": "What does the acronym CAB-D stand for in the BLS approach?",
+      "options": [
+        "Circulation, Airway, Breathing, Defibrillate",
+        "Compressions, Airway, Breathing, Drugs",
+        "Check, Activate, Breathe, Defibrillate",
+        "Circulation, Assessment, Breathing, Diagnosis"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bls-19",
+      "question": "Which of the following was a change in the 2015 AHA Guidelines?",
+      "options": [
+        "Change in sequence to A-B-C",
+        "Change in sequence to C-A-B",
+        "Addition of look, listen and feel",
+        "Removal of chest compressions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-20",
+      "question": "In the 2015 AHA Guidelines, what was emphasized regarding CPR quality?",
+      "options": [
+        "Rescue breaths over compressions",
+        "High quality CPR",
+        "Use of drugs first",
+        "Delaying CPR until EMS arrives"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-21",
+      "question": "According to the BLS Assessment flow, an unconscious patient should receive:",
+      "options": [
+        "Secondary assessment only",
+        "BLS Assessment → Primary Assessment → Secondary Assessment",
+        "Only Primary Assessment",
+        "Immediate referral to hospital"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-22",
+      "question": "In the 'Hands Only CPR in New Normal' approach, what is the first step?",
+      "options": ["Cover", "Connect", "Check", "Compress"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bls-23",
+      "type": "fill_blanks",
+      "question": "The five steps of Hands-Only CPR in the New Normal are: 1. _____, 2. CALL, 3. _____, 4. COMPRESS, 5. CONNECT.",
+      "answers": ["CHECK", "COVER"]
+    },
+    {
+      "id": "bls-24",
+      "question": "During the CHECK step of New Normal CPR, the rescuer should assess for:",
+      "options": [
+        "Scene safety, responsiveness, pulse and breathing",
+        "Only breathing",
+        "Only pulse",
+        "Only responsiveness"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bls-25",
+      "question": "What should the rescuer wear during CPR in an infectious outbreak?",
+      "options": [
+        "Surgical Face Mask/N95 and Gloves",
+        "Only gloves",
+        "Only a mask",
+        "No PPE needed"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bls-26",
+      "question": "During the COVER step of New Normal CPR, what should be covered?",
+      "options": [
+        "Only the rescuer's mouth",
+        "Only the victim's mouth",
+        "Rescuer and victim's mouth and nose with a surgical mask or cloth",
+        "Only the victim's nose"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bls-27",
+      "question": "In high-quality chest compressions, the recommended rate is:",
+      "options": ["60-80 per minute", "80-100 per minute", "100-120 per minute", "120-140 per minute"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bls-28",
+      "question": "The recommended depth for chest compressions is:",
+      "options": ["1-2 inches", "2-2.5 inches", "3-4 inches", "4-5 inches"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-29",
+      "question": "When performing chest compressions, the CPR operator should be changed:",
+      "options": ["Every 1 minute", "Every 2 minutes", "Every 3 minutes", "Every 5 minutes"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-30",
+      "question": "The compression-to-ventilation ratio for adult CPR is:",
+      "options": ["15:2", "30:2", "10:1", "5:1"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-31",
+      "question": "When giving rescue breaths, each breath should take about:",
+      "options": ["0.5 seconds", "1 second", "2 seconds", "3 seconds"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-32",
+      "question": "The mouth-to-nose technique is used when:",
+      "options": [
+        "The victim is conscious",
+        "The rescuer cannot open the mouth or make a good seal",
+        "The victim is a child",
+        "The rescuer is trained in BLS"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-33",
+      "question": "In AED use, what is the correct sequence of actions?",
+      "options": [
+        "Attach pads → Turn on → Analyze → Shock → Resume CPR",
+        "Turn on → Attach pads → Analyze → Shock → Resume CPR",
+        "Attach pads → Analyze → Turn on → Shock → Resume CPR",
+        "Analyze → Turn on → Attach pads → Shock → Resume CPR"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-34",
+      "type": "fill_blanks",
+      "question": "The AED acronym steps are: A - Activate AED/Power on, A - Attach electrode pads, E - Evaluate/Analyze the rhythm, D - Deliver shock, and S - _____.",
+      "answers": ["Start/Resume CPR"]
+    },
+    {
+      "id": "bls-35",
+      "question": "After delivering a shock with an AED, the rescuer should immediately:",
+      "options": [
+        "Check for a pulse",
+        "Perform CPR for 2 minutes",
+        "Turn off the AED",
+        "Remove the pads"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-36",
+      "question": "If a victim starts to breathe normally after AED use, they should be placed in:",
+      "options": ["Supine position", "Recovery position", "Prone position", "Sitting position"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-37",
+      "question": "A patient with a completely obstructed airway will show:",
+      "options": [
+        "Normal voice",
+        "Changed voice with noisy breathing",
+        "No respiration despite great effort (paradox respiration)",
+        "Effective coughing"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bls-38",
+      "question": "In the FBAO treatment flow for a conscious adult with severe obstruction, the first action after assessing severity is:",
+      "options": ["5 abdominal thrusts", "5 back blows", "Start CPR", "Encourage cough"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-39",
+      "question": "The Heimlich Maneuver for adults consists of:",
+      "options": [
+        "5 back blows and 5 abdominal thrusts",
+        "Only abdominal thrusts",
+        "Only back blows",
+        "10 abdominal thrusts"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bls-40",
+      "question": "In the Primary Assessment, what does 'D' stand for?",
+      "options": ["Diagnosis", "Defibrillation", "Disability", "Drugs"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "bls-41",
+      "type": "fill_blanks",
+      "question": "The Primary Assessment uses the mnemonic A-B-C-D-E: A for Airway, B for _____, C for Circulation, D for _____, and E for Exposure.",
+      "answers": ["Breathing", "Disability"]
+    },
+    {
+      "id": "bls-42",
+      "question": "In assessing Disability (D), the AVPU scale stands for: Alert, Voice, Pain, and:",
+      "options": ["Unresponsive", "Understanding", "Urgent", "Unstable"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "bls-43",
+      "type": "fill_blanks",
+      "question": "In the Secondary Assessment, the SAMPLE memory aid includes: Symptoms, Allergies, Medications, Past medical history, Last oral intake, and _____.",
+      "answers": ["Events"]
+    },
+    {
+      "id": "bls-44",
+      "question": "In Secondary Assessment, the H's and T's are used for:",
+      "options": [
+        "Diagnosing stroke",
+        "Searching for and treating underlying causes",
+        "Checking vital signs",
+        "Performing CPR"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "bls-45",
+      "type": "fill_blanks",
+      "question": "For cardiac arrest patients, administer _____% oxygen, while for others, titrate oxygen to achieve an oxygen saturation of _____% or greater.",
+      "answers": ["100", "94"]
+    }
+  ]
+}
