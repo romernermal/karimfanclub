@@ -39,6 +39,24 @@ export default function TestSelection() {
         <h1 className="text-xl font-bold text-gray-900 mb-6">{subject.name}</h1>
 
         <div className="space-y-3">
+          {subject.tests.length > 1 && (
+            <button
+              onClick={() => navigate(`/subject/${subjectId}/test/__master__/mode`)}
+              className="w-full p-5 rounded-2xl bg-gradient-to-r from-purple-600 to-violet-500 text-white text-left
+                shadow-lg animate-shake transition-transform active:scale-[0.98] min-h-[72px]"
+            >
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">⭐</span>
+                <div>
+                  <p className="font-bold text-base">Master Quiz</p>
+                  <p className="text-sm text-purple-100 mt-0.5">
+                    Combine all {subject.tests.length} tests into one quiz
+                  </p>
+                </div>
+              </div>
+            </button>
+          )}
+
           {subject.tests.map((test) => (
             <button
               key={test.id}

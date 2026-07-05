@@ -21,13 +21,15 @@ export default function Quiz() {
     nextQuestion,
     questionOrder,
     initQuestionOrder,
+    isMasterQuiz,
+    masterQuizData,
   } = useQuizStore()
 
   const subjects = useQuizStore((s) => s.subjects)
   const loadTestData = useQuizStore((s) => s.loadTestData)
   const subject = subjects.find((s) => s.id === subjectId)
   const testMeta = subject?.tests.find((t) => t.id === testId)
-  const testData = testsCache[testId]
+  const testData = isMasterQuiz ? masterQuizData : testsCache[testId]
   const effectiveIndex = questionOrder.length > 0 ? questionOrder[currentQuestionIndex] : currentQuestionIndex
   const question = testData?.questions[effectiveIndex]
   const questionType = question?.type || testData?.testType
@@ -54,10 +56,10 @@ export default function Quiz() {
   }, [])
 
   useEffect(() => {
-    if (testData && questionOrder.length === 0) {
-      initQuestionOrder()
-    }
-  }, [testData])
+      if (testData && testData.questions?.length > 0 && questionOrder.length === 0) {
+        initQuestionOrder()
+      }
+    }, [testData])
 
   useEffect(() => {
     setSelectedOption(null)

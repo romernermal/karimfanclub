@@ -33,6 +33,9 @@ export default function AnswerKey({ userAnswers, test }) {
             <p className="text-sm font-medium text-gray-900 mb-2">
               {idx + 1}. {question.question}
             </p>
+            {question._source && (
+              <p className="text-xs text-gray-400 mb-2">Source: {question._source}</p>
+            )}
             <div className="text-sm space-y-1">
               <p className={item.isCorrect ? 'text-green-700' : 'text-red-700'}>
                 Your answer:{' '}

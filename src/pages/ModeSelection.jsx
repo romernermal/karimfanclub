@@ -37,19 +37,27 @@ export default function ModeSelection() {
   const loadTestData = useQuizStore((s) => s.loadTestData)
   const shuffleEnabled = useQuizStore((s) => s.shuffleEnabled)
   const setShuffleEnabled = useQuizStore((s) => s.setShuffleEnabled)
+  const buildMasterQuiz = useQuizStore((s) => s.buildMasterQuiz)
 
   const subject = subjects.find((s) => s.id === subjectId)
-  const testMeta = subject?.tests.find((t) => t.id === testId)
+  const isMasterRoute = testId === '__master__'
+  const testMeta = isMasterRoute ? null : subject?.tests.find((t) => t.id === testId)
 
-  function handleSelect(modeId) {
-    if (testMeta?.fileName) {
-      loadTestData(testId, testMeta.fileName)
+  async function handleSelect(modeId) {
+    if (isMasterRoute) {
+      await buildMasterQuiz(subjectId)
+      startQuiz(subjectId, '__master__', modeId)
+      navigate(`/subject/${subjectId}/test/__master__/quiz`)
+    } else {
+      if (testMeta?.fileName) {
+        loadTestData(testId, testMeta.fileName)
+      }
+      startQuiz(subjectId, testId, modeId)
+      navigate(`/subject/${subjectId}/test/${testId}/quiz`)
     }
-    startQuiz(subjectId, testId, modeId)
-    navigate(`/subject/${subjectId}/test/${testId}/quiz`)
   }
 
-  if (!subject || !testMeta) {
+  if (!subject || (!isMasterRoute && !testMeta)) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
@@ -79,7 +87,9 @@ export default function ModeSelection() {
         </button>
 
         <h1 className="text-xl font-bold text-gray-900 mb-1">Choose Mode</h1>
-        <p className="text-sm text-gray-500 mb-4">{testMeta.id}</p>
+        <p className="text-sm text-gray-500 mb-4">
+          {isMasterRoute ? 'Master Quiz — all tests combined' : testMeta?.id}
+        </p>
 
         <label className="flex items-center gap-3 p-4 mb-6 bg-white rounded-xl border border-gray-200 cursor-pointer select-none">
           <input

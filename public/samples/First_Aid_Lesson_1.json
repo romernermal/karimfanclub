@@ -1,206 +1,356 @@
 {
-  "title": "Triage - Standard First Aid (SFA) Comprehensive Quiz",
+  "title": "Principles of Emergency Care and Introduction to BLS - 40-Item Comprehensive Quiz",
   "testType": "mcq",
   "questions": [
     {
-      "id": "triage-q01",
-      "question": "From which language does the word 'triage' originate?",
-      "options": ["French", "Latin", "German", "Greek"],
-      "correctAnswer": 0
-    },
-    {
-      "id": "triage-q02",
-      "question": "What is the primary objective of triage?",
-      "options": [
-        "To treat all patients equally regardless of condition",
-        "To quickly identify victims needing immediate stabilization or transport",
-        "To provide definitive care on scene to all casualties",
-        "To transport all patients to the nearest hospital"
-      ],
+      "id": "pec-01",
+      "question": "Emergency planning should be established based on anticipated needs and:",
+      "options": ["Available personnel", "Available resources", "Budget constraints", "Time of day"],
       "correctAnswer": 1
     },
     {
-      "id": "triage-q03",
-      "type": "fill_blanks",
-      "question": "The three core clinical bases of triage are _____, _____, and _____.",
-      "answers": ["urgency", "survival", "care resource availability"]
-    },
-    {
-      "id": "triage-q04",
-      "question": "What does MCI stand for?",
-      "type": "identification",
-      "answer": "Mass Casualty Incident"
-    },
-    {
-      "id": "triage-q05",
-      "question": "According to WHO, mass casualty incidents are characterized by:",
-      "options": [
-        "Quantity and severity only",
-        "Quantity, severity, and diversity of patients",
-        "Diversity and severity only",
-        "The number of fatalities only"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": "triage-q06",
-      "question": "Which triage tag color indicates the highest priority (Immediate) patients?",
-      "options": ["Red", "Yellow", "Green", "Black"],
-      "correctAnswer": 0
-    },
-    {
-      "id": "triage-q07",
-      "question": "Which tag is assigned to patients with minor injuries who are able to walk?",
-      "options": ["Red", "Yellow", "Green", "Blue"],
+      "id": "pec-02",
+      "question": "The emergency response begins with the preparation of equipment and personnel:",
+      "options": ["During the emergency", "After the emergency", "Before any emergency occurs", "Only when requested"],
       "correctAnswer": 2
     },
     {
-      "id": "triage-q08",
-      "question": "For a YELLOW (Delayed) tagged patient, how long may treatment and transport be delayed?",
-      "options": ["Up to 30 minutes", "Up to 1 hour", "Up to 2 hours", "Up to 3 hours"],
-      "correctAnswer": 1
-    },
-    {
-      "id": "triage-q09",
+      "id": "pec-03",
       "type": "fill_blanks",
-      "question": "The BLACK tag is for patients who are _____ or _____, and they should not be moved to the collection point.",
-      "answers": ["deceased", "expectant"]
+      "question": "The three components of INITIAL RESPONSE are: ask for _____, _____, and do no further harm.",
+      "answers": ["HELP", "intervene"]
     },
     {
-      "id": "triage-q10",
-      "question": "What is the hardest triage priority to deal with emotionally?",
-      "options": ["Red", "Yellow", "Green", "Black"],
-      "correctAnswer": 3
-    },
-    {
-      "id": "triage-q11",
-      "question": "Which special tag is used for patients with potential or real exposure to environmental, chemical, or biological contaminants?",
-      "options": ["Red", "Yellow", "Blue", "Black"],
-      "correctAnswer": 2
-    },
-    {
-      "id": "triage-q12",
-      "question": "What is recommended for contaminated patients after they are adequately decontaminated?",
+      "id": "pec-04",
+      "question": "The principle 'Do no further harm' in initial response emphasizes that the rescuer should:",
       "options": [
-        "They are immediately discharged",
-        "They follow START triage as usual",
-        "They are automatically tagged BLACK",
-        "They are sent directly to the hospital"
+        "Always perform CPR",
+        "Avoid causing additional injury to the victim",
+        "Move the victim immediately",
+        "Give medications without training"
       ],
       "correctAnswer": 1
     },
     {
-      "id": "triage-q13",
-      "type": "fill_blanks",
-      "question": "Some recommend _____ tagging for contaminated patients, using blue and the standard START color.",
-      "answers": ["double"]
-    },
-    {
-      "id": "triage-q14",
-      "question": "At which on-site triage location does 'reverse triage' occur?",
-      "options": ["Collecting Area", "Treatment Area", "Impact Site", "Hospital"],
+      "id": "pec-05",
+      "question": "Proper information and instruction to bystanders would provide:",
+      "options": ["Confusion", "Delayed response", "Organized first aid care", "Unnecessary panic"],
       "correctAnswer": 2
     },
     {
-      "id": "triage-q15",
-      "question": "At which location are victims identified for transport to the operating room or respective hospital services?",
-      "options": ["Impact Site", "Collecting Area", "Treatment Area", "Hospital"],
-      "correctAnswer": 3
-    },
-    {
-      "id": "triage-q16",
-      "type": "identification",
-      "question": "What is the name of the temporary medical treatment area established near the scene of a disaster?",
-      "answer": "Advanced Medical Post"
-    },
-    {
-      "id": "triage-q17",
-      "question": "Which of the following is NOT one of the four primary global pre-hospital triage systems?",
-      "options": ["START", "SALT", "STM", "SAVE", "JumpSTART"],
-      "correctAnswer": 4
-    },
-    {
-      "id": "triage-q18",
-      "question": "In the START algorithm, what does the 'R' in RPM stand for?",
-      "type": "identification",
-      "answer": "Respirations"
-    },
-    {
-      "id": "triage-q19",
-      "type": "fill_blanks",
-      "question": "START uses RPM: R for _____, P for _____, and M for _____.",
-      "answers": ["Respirations", "Perfusion", "Mental Status"]
-    },
-    {
-      "id": "triage-q20",
-      "question": "In START, if a patient has respirations greater than 30 per minute, what tag is assigned?",
-      "options": ["Red", "Yellow", "Green", "Black"],
-      "correctAnswer": 0
-    },
-    {
-      "id": "triage-q21",
-      "question": "If a patient is not breathing after opening the airway with the Head Tilt method, what START tag is assigned?",
-      "options": ["Red", "Yellow", "Green", "Black"],
-      "correctAnswer": 3
-    },
-    {
-      "id": "triage-q22",
-      "question": "In START, how many seconds should be spent checking the radial pulse for perfusion?",
-      "options": ["3 seconds", "5 seconds", "10 seconds", "15 seconds"],
-      "correctAnswer": 1
-    },
-    {
-      "id": "triage-q23",
-      "question": "In START, if a patient has respirations <30, a strong radial pulse, and can follow simple commands, what tag is assigned?",
-      "options": ["Red", "Yellow", "Green", "Black"],
-      "correctAnswer": 1
-    },
-    {
-      "id": "triage-q24",
-      "question": "If a patient in START is unresponsive and cannot follow simple commands, what tag is assigned?",
-      "options": ["Red", "Yellow", "Green", "Black"],
-      "correctAnswer": 0
-    },
-    {
-      "id": "triage-q25",
-      "question": "Which pediatric triage tool is a modification of START designed for children aged 1–8 years?",
-      "type": "identification",
-      "answer": "JumpSTART"
-    },
-    {
-      "id": "triage-q26",
-      "question": "In JumpSTART, what priority is assigned to babies less than 12 months old?",
-      "options": ["Delayed (Yellow)", "Immediate (Red)", "Minor (Green)", "Deceased (Black)"],
-      "correctAnswer": 1
-    },
-    {
-      "id": "triage-q27",
-      "question": "What does the AVPU assessment used in JumpSTART stand for?",
-      "type": "identification",
-      "answer": "Alert, Voice, Pain, Unresponsive"
-    },
-    {
-      "id": "triage-q28",
-      "type": "fill_blanks",
-      "question": "The SALT triage tool stands for: Sort, _____, _____, and Treatment/Transport.",
-      "answers": ["Assess", "Lifesaving interventions"]
-    },
-    {
-      "id": "triage-q29",
-      "type": "fill_blanks",
-      "question": "The three categories of psychological and disaster exposure effects on children are _____, _____, and _____.",
-      "answers": ["Direct", "Interpersonal", "Indirect"]
-    },
-    {
-      "id": "triage-q30",
-      "question": "Which of the following is a pediatric MCI triage recommendation from FEMA (2014)?",
+      "id": "pec-06",
+      "question": "Which of the following is the correct sequence of Emergency Action Principles?",
       "options": [
-        "Transport all children to the nearest hospital",
-        "Group children together in the appropriate triage areas",
-        "Separate children from their parents at all times",
-        "Only use adult triage tools for children"
+        "Initial Assessment → Survey the Scene → Activate Medical Assistance → Secondary Assessment → Referral",
+        "Survey the Scene → Activate Medical Assistance → Initial Assessment → Secondary Assessment → Referral",
+        "Activate Medical Assistance → Survey the Scene → Initial Assessment → Secondary Assessment → Referral",
+        "Survey the Scene → Initial Assessment → Activate Medical Assistance → Secondary Assessment → Referral"
       ],
       "correctAnswer": 1
+    },
+    {
+      "id": "pec-07",
+      "question": "What is the very first action you must take once you recognize that an emergency has occurred?",
+      "options": [
+        "Start CPR immediately",
+        "Make sure the scene is safe for you, the victim, and bystanders",
+        "Call for help",
+        "Check the victim's pulse"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-08",
+      "type": "fill_blanks",
+      "question": "The elements of Survey the Scene include: scene safety, mechanism of injury or nature of illness, taking standard precautions with PPE, determining the number of patients, and considering _____ resources.",
+      "answers": ["additional/specialized"]
+    },
+    {
+      "id": "pec-09",
+      "question": "What does the acronym PPE stand for in emergency care?",
+      "type": "identification",
+      "answer": "Personal Protective Equipment"
+    },
+    {
+      "id": "pec-10",
+      "question": "Which of the following is a critical reminder regarding Personal Protective Equipment?",
+      "options": [
+        "PPE is optional in minor emergencies",
+        "No PPE, No BLS!",
+        "PPE is only for healthcare providers",
+        "PPE is not needed if the scene looks safe"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-11",
+      "question": "In the 'Call First vs. CPR First' guideline, which group should receive 'CPR First' instead of 'Call First'?",
+      "options": [
+        "Adults and adolescents with witnessed collapse",
+        "Children and infants with witnessed collapse",
+        "Adults and adolescents with likely asphyxial arrest (e.g., drowning)",
+        "All unwitnessed collapses regardless of age"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pec-12",
+      "question": "If you are ALONE with no mobile phone and an adult collapses with a witnessed arrest, what should you do?",
+      "options": [
+        "Start CPR immediately without leaving the victim",
+        "Leave the victim to activate emergency response and get an AED before beginning CPR",
+        "Perform 2 minutes of CPR, then leave to call",
+        "Wait for a bystander to arrive before acting"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-13",
+      "question": "For an unwitnessed collapse of a child or infant, how much CPR should be given before leaving to activate the emergency response system?",
+      "options": ["1 cycle", "2 minutes (approximately 5 cycles)", "3 minutes", "5 minutes"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-14",
+      "question": "The Adult BLS Algorithm has been modified to reflect that rescuers can activate an emergency response without leaving the victim's side through the use of:",
+      "options": ["Landline phone", "Mobile phone", "Two-way radio", "Shouting for help"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-15",
+      "type": "fill_blanks",
+      "question": "When activating medical assistance, the information to remember includes: WHAT happened, _____, NUMBER of persons injured, EXTENT of injury and first aid given, _____ from where you are calling, and the person who activated AMA must identify him/herself and drop the phone last.",
+      "answers": ["LOCATION", "TELEPHONE NO."]
+    },
+    {
+      "id": "pec-16",
+      "question": "When activating medical assistance, the person who made the call should:",
+      "options": [
+        "Hang up immediately after giving the location",
+        "Identify themselves and drop the phone last",
+        "Stay on the line until help arrives",
+        "Only give the number of victims"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-17",
+      "question": "During the primary assessment in NORMAL times, what is the correct sequence after checking for responsiveness?",
+      "options": [
+        "Check Circulation → Open Airway → Check Breathing",
+        "Open Airway → Check Breathing and Circulation simultaneously",
+        "Check Breathing → Open Airway → Check Circulation",
+        "Open Airway → Check Circulation → Check Breathing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-18",
+      "question": "Checking for breathing and circulation during the primary assessment should be done:",
+      "options": [
+        "Sequentially in 30 seconds",
+        "Simultaneously in no more than 10 seconds",
+        "Simultaneously in 20 seconds",
+        "Sequentially in 15 seconds"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-19",
+      "question": "Checking for Circulation (pulse) during the primary assessment is specifically indicated for:",
+      "options": ["All rescuers", "Lay rescuers only", "Healthcare providers only", "First aiders only"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pec-20",
+      "question": "During the COVID-19 pandemic, when should the rescuer open the victim's airway?",
+      "options": [
+        "During all assessments as routine",
+        "Only during Foreign Body Airway Obstruction (FBAO) management",
+        "Only if the victim is conscious",
+        "After checking for a pulse"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-21",
+      "question": "During the COVID-19 pandemic, if not managing FBAO, what should be done to the victim's mouth and nose?",
+      "options": [
+        "Leave uncovered to allow maximum airflow",
+        "Cover with a cloth or mask",
+        "Apply direct pressure",
+        "Use only a bag-valve mask without any barrier"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-22",
+      "question": "The secondary assessment of the victim consists of which two main components?",
+      "options": [
+        "Surveying the scene and activating medical assistance",
+        "Interviewing the victim (SAMPLE) and performing a head-to-toe examination",
+        "Checking ABC and giving CPR",
+        "Only checking vital signs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-23",
+      "type": "fill_blanks",
+      "question": "In the SAMPLE interview mnemonic, the letters stand for: Signs and symptoms, _____, _____, Past medical history, Last meal taken, and Events prior to injury or incident.",
+      "answers": ["Allergies", "Medications"]
+    },
+    {
+      "id": "pec-24",
+      "type": "fill_blanks",
+      "question": "Completing the SAMPLE mnemonic: the 'L' stands for _____ taken, and the 'E' stands for _____ prior to injury or incident.",
+      "answers": ["Last meal", "Events"]
+    },
+    {
+      "id": "pec-25",
+      "question": "During secondary assessment, vital signs should be checked every 15 minutes if the victim's condition is:",
+      "options": ["Unstable", "Stable", "Critical", "Deteriorating"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-26",
+      "question": "During secondary assessment, vital signs should be checked every 5 minutes if the victim's condition is:",
+      "options": ["Stable", "Improving", "Unstable", "Non-urgent"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pec-27",
+      "question": "The head-to-toe examination during secondary assessment is performed to:",
+      "options": [
+        "Provide definitive surgical treatment",
+        "Look for other signs of injuries and apply necessary first aid measures",
+        "Determine the mechanism of injury",
+        "Check for scene safety"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-28",
+      "question": "Referral of the victim refers to:",
+      "options": [
+        "Sending the victim home with self-care instructions",
+        "Transferring the victim to a hospital or advanced healthcare facility for definitive treatment",
+        "Releasing the victim to a bystander",
+        "Calling the victim's family members only"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-29",
+      "type": "fill_blanks",
+      "question": "In the Golden Rules of First Aid (DOs), rescuers should: obtain _____ when possible, identify yourself, respect the victim's modesty and privacy, care for the most serious injuries first, and _____ tight clothing.",
+      "answers": ["consent", "loosen"]
+    },
+    {
+      "id": "pec-30",
+      "type": "fill_blanks",
+      "question": "In the Golden Rules of First Aid (DON'Ts), rescuers must NOT: leave the victim _____ except to get help, make any _____ promises, or trust the judgment of a _____ person.",
+      "answers": ["alone", "unrealistic", "confused"]
+    },
+    {
+      "id": "pec-31",
+      "question": "Which of the following is a 'DO' according to the Golden Rules of First Aid?",
+      "options": [
+        "Leave the victim alone after giving initial care",
+        "Make unrealistic promises to comfort the victim",
+        "Respect the victim's modesty and privacy",
+        "Trust the judgment of a confused person"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pec-32",
+      "question": "Which of the following is a 'DON'T' according to the Golden Rules of First Aid?",
+      "options": [
+        "Loosen tight clothing",
+        "Care for the most serious injuries first",
+        "Leave the victim alone except to get help",
+        "Obtain consent when possible"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pec-33",
+      "question": "According to the Emergency Action Principles, what should you do immediately after surveying the scene?",
+      "options": [
+        "Start the initial assessment of the victim",
+        "Activate Medical Assistance",
+        "Perform a secondary assessment",
+        "Refer the victim for further evaluation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-34",
+      "question": "When surveying the scene, 'mechanism of injury' refers to:",
+      "options": [
+        "The victim's medical history",
+        "How the injury occurred (e.g., fall, burn, crush)",
+        "The number of bystanders",
+        "The availability of PPE"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-35",
+      "question": "In the 'Call First' category, which of the following scenarios applies to adults and adolescents?",
+      "options": [
+        "Likely asphyxial arrest (e.g., drowning)",
+        "Witnessed collapse",
+        "Unwitnessed collapse",
+        "Both witnessed and unwitnessed collapse"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-36",
+      "question": "For children and infants with a witnessed collapse, the guideline recommends:",
+      "options": [
+        "CPR First for 2 minutes, then Call First",
+        "Call First immediately, then return and begin CPR",
+        "Only Call First without CPR",
+        "Only perform CPR and never activate EMS"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-37",
+      "question": "For children and infants with a likely asphyxial arrest (e.g., drowning), the guideline recommends:",
+      "options": [
+        "Call First immediately",
+        "CPR First for 2 minutes (5 cycles), then activate emergency response",
+        "Only activate emergency response",
+        "No CPR is needed"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "pec-38",
+      "type": "fill_blanks",
+      "question": "When alone with a child or infant with an unwitnessed collapse, you should give _____ of CPR (approximately _____ cycles) before leaving to activate emergency response.",
+      "answers": ["2 minutes", "5"]
+    },
+    {
+      "id": "pec-39",
+      "question": "Which of the following information is NOT required when activating medical assistance?",
+      "options": [
+        "What happened",
+        "Location",
+        "Victim's favorite color",
+        "Number of persons injured"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "pec-40",
+      "type": "fill_blanks",
+      "question": "Referral for further evaluation and management means transferring the victim to a hospital or advanced facility for _____ treatment.",
+      "answers": ["definitive"]
     }
   ]
 }
