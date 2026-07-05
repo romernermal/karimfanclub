@@ -121,39 +121,40 @@ const useQuizStore = create((set, get) => ({
       // no default manifest available
     }
 
-    const stored = loadFromStorage('subjects')
-    let merged
+    const stored = loadFromStorage('subjects') || []
 
-    if (stored) {
-      merged = [...stored]
-      for (const subject of defaults) {
-        const idx = merged.findIndex((s) => s.id === subject.id)
-        if (idx >= 0) {
-          const existingIds = merged[idx].tests.map((t) => t.id)
-          const newTests = subject.tests.filter(
-            (t) => !existingIds.includes(t.id)
-          )
-          if (newTests.length > 0) {
-            merged[idx] = {
-              ...merged[idx],
-              tests: [...merged[idx].tests, ...newTests],
-            }
-          }
-        } else {
-          merged.push(subject)
-        }
-      }
+    // Collect all test ids referenced by the final subject list
+    const referencedTestIds = new Set()
+
+    if (defaults.length > 0) {
+      // Default manifest is authoritative for default subjects.
+      // Replace any cached subject that exists in defaults.
+      // Preserve subjects imported by the user (not in defaults).
+      const defaultIds = new Set(defaults.map((s) => s.id))
+      const imported = stored.filter((s) => !defaultIds.has(s.id))
+      const merged = [...defaults, ...imported]
+
+      merged.forEach((s) => s.tests.forEach((t) => referencedTestIds.add(t.id)))
+
+      set({ subjects: merged })
+      saveToStorage('subjects', merged)
+    } else if (stored.length > 0) {
+      stored.forEach((s) => s.tests.forEach((t) => referencedTestIds.add(t.id)))
+      set({ subjects: stored })
     } else {
-      merged = defaults
+      set({ subjects: [] })
     }
 
-    set({ subjects: merged })
-    saveToStorage('subjects', merged)
-
-    const cached = loadFromStorage('testsCache')
-    if (cached) {
-      set({ testsCache: cached })
+    // Clean tests cache: remove entries no longer referenced by any subject
+    const cached = loadFromStorage('testsCache') || {}
+    const clean = {}
+    for (const [id, data] of Object.entries(cached)) {
+      if (referencedTestIds.has(id)) {
+        clean[id] = data
+      }
     }
+    set({ testsCache: clean })
+    saveToStorage('testsCache', clean)
   },
 
   async loadTestData(testId, fileName) {
