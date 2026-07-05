@@ -4,28 +4,8 @@
       "id": "first-aid",
       "name": "First Aid",
       "tests": [
-        { "id": "first-aid-summative-1", "fileName": "First_Aid_Summative_1.json" }
-      ]
-    },
-    {
-      "id": "pre-cal",
-      "name": "Pre-Calculus",
-      "tests": [
-        { "id": "pre-cal-summative-1", "fileName": "Pre_Cal_Summative_1.json" }
-      ]
-    },
-    {
-      "id": "physics",
-      "name": "Physics",
-      "tests": [
-        { "id": "physics-summative-1", "fileName": "Physics_Summative_1.json" }
-      ]
-    },
-    {
-      "id": "research",
-      "name": "Research",
-      "tests": [
-        { "id": "mixed-type-demo", "fileName": "Mixed_Example.json" }
+        { "id": "first-aid-summative-1", "fileName": "First_Aid_Summative_1.json" },
+        { "id": "LESSON 1", "fileName": "First_Aid_Lesson_1.json" }
       ]
     }
   ]
