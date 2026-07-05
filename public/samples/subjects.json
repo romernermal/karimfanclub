@@ -20,6 +20,13 @@
       "tests": [
         { "id": "physics-summative-1", "fileName": "Physics_Summative_1.json" }
       ]
+    },
+    {
+      "id": "mixed-examples",
+      "name": "Mixed Examples",
+      "tests": [
+        { "id": "mixed-type-demo", "fileName": "Mixed_Example.json" }
+      ]
     }
   ]
 }

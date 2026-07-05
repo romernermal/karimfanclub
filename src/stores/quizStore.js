@@ -12,6 +12,9 @@ const useQuizStore = create((set, get) => ({
   currentTestId: null,
   currentMode: null,
 
+  shuffleEnabled: loadFromStorage('shuffle') === true,
+  questionOrder: [],
+
   userAnswers: [],
   currentQuestionIndex: 0,
   quizComplete: false,
@@ -35,16 +38,41 @@ const useQuizStore = create((set, get) => ({
       userAnswers: [],
       currentQuestionIndex: 0,
       quizComplete: false,
+      questionOrder: [],
     })
   },
 
+  setShuffleEnabled(enabled) {
+    set({ shuffleEnabled: enabled })
+    saveToStorage('shuffle', enabled)
+  },
+
+  initQuestionOrder() {
+    const { currentTestId, testsCache, shuffleEnabled } = get()
+    const test = testsCache[currentTestId]
+    if (!test) return
+
+    const count = test.questions.length
+    const order = Array.from({ length: count }, (_, i) => i)
+
+    if (shuffleEnabled) {
+      for (let i = order.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [order[i], order[j]] = [order[j], order[i]]
+      }
+    }
+
+    set({ questionOrder: order })
+  },
+
   answerQuestion(answer) {
-    const { currentTestId, testsCache, currentQuestionIndex, currentMode } =
+    const { currentTestId, testsCache, currentQuestionIndex, currentMode, questionOrder } =
       get()
     const test = testsCache[currentTestId]
     if (!test) return
 
-    const question = test.questions[currentQuestionIndex]
+    const effectiveIndex = questionOrder.length > 0 ? questionOrder[currentQuestionIndex] : currentQuestionIndex
+    const question = test.questions[effectiveIndex]
     const isCorrect = gradeAnswer(question, answer, test.testType)
 
     const result = { questionId: question.id, answer, isCorrect }

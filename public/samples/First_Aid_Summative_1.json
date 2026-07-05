@@ -38,9 +38,9 @@
     },
     {
       "id": "fa-q5",
-      "question": "How deep should chest compressions be for an adult during CPR?",
-      "options": ["1 inch", "2 inches", "3 inches", "4 inches"],
-      "correctAnswer": 1
+      "type": "fill_blanks",
+      "question": "For a minor wound, you should _____ the area with soap and water, apply _____, and cover with a sterile _____.",
+      "answers": ["clean", "antiseptic", "bandage"]
     }
   ]
 }

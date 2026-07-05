@@ -19,6 +19,8 @@ export default function Quiz() {
     userAnswers,
     answerQuestion,
     nextQuestion,
+    questionOrder,
+    initQuestionOrder,
   } = useQuizStore()
 
   const subjects = useQuizStore((s) => s.subjects)
@@ -26,7 +28,9 @@ export default function Quiz() {
   const subject = subjects.find((s) => s.id === subjectId)
   const testMeta = subject?.tests.find((t) => t.id === testId)
   const testData = testsCache[testId]
-  const question = testData?.questions[currentQuestionIndex]
+  const effectiveIndex = questionOrder.length > 0 ? questionOrder[currentQuestionIndex] : currentQuestionIndex
+  const question = testData?.questions[effectiveIndex]
+  const questionType = question?.type || testData?.testType
   const totalQuestions = testData?.questions.length || 0
 
   const [selectedOption, setSelectedOption] = useState(null)
@@ -50,6 +54,12 @@ export default function Quiz() {
   }, [])
 
   useEffect(() => {
+    if (testData && questionOrder.length === 0) {
+      initQuestionOrder()
+    }
+  }, [testData])
+
+  useEffect(() => {
     setSelectedOption(null)
     setTextAnswer('')
     setBlanksAnswers([])
@@ -58,22 +68,22 @@ export default function Quiz() {
   }, [currentQuestionIndex])
 
   const correctAnswer = question
-    ? getCorrectAnswerText(question, testData?.testType)
+    ? getCorrectAnswerText(question, questionType)
     : ''
 
   const handleSubmit = useCallback(() => {
     if (!question || !testData) return
 
     let answer
-    if (testData.testType === 'mcq') {
+    if (questionType === 'mcq') {
       answer = selectedOption
-    } else if (testData.testType === 'identification') {
+    } else if (questionType === 'identification') {
       answer = textAnswer
-    } else if (testData.testType === 'fill_blanks') {
+    } else if (questionType === 'fill_blanks') {
       answer = blanksAnswers
     }
 
-    const isCorrect = gradeAnswer(question, answer, testData.testType)
+    const isCorrect = gradeAnswer(question, answer, questionType)
     setLastResult(isCorrect)
     setSubmitted(true)
     answerQuestion(answer)
@@ -93,9 +103,9 @@ export default function Quiz() {
 
   const canSubmit = () => {
     if (submitted || isFlashcards) return false
-    if (testData?.testType === 'mcq') return selectedOption !== null
-    if (testData?.testType === 'identification') return textAnswer.trim().length > 0
-    if (testData?.testType === 'fill_blanks') {
+    if (questionType === 'mcq') return selectedOption !== null
+    if (questionType === 'identification') return textAnswer.trim().length > 0
+    if (questionType === 'fill_blanks') {
       return blanksAnswers.length > 0 && blanksAnswers.every((a) => a.trim().length > 0)
     }
     return false
@@ -139,7 +149,7 @@ export default function Quiz() {
             <p className="text-center text-xs text-gray-400 mb-3">
               Card {currentQuestionIndex + 1} of {totalQuestions}
             </p>
-            <FlashCard key={currentQuestionIndex} question={question} testType={testData.testType} />
+            <FlashCard key={currentQuestionIndex} question={question} testType={questionType} />
           </div>
         ) : (
           <div key={currentQuestionIndex} className="animate-fade-in">
@@ -150,7 +160,7 @@ export default function Quiz() {
             </div>
 
             <div className="mt-5">
-              {testData.testType === 'mcq' && (
+              {questionType === 'mcq' && (
                 <MCQInput
                   options={question.options}
                   selected={selectedOption}
@@ -158,7 +168,7 @@ export default function Quiz() {
                   disabled={submitted}
                 />
               )}
-              {testData.testType === 'identification' && (
+              {questionType === 'identification' && (
                 <TextInput
                   value={textAnswer}
                   onChange={setTextAnswer}
@@ -166,7 +176,7 @@ export default function Quiz() {
                   placeholder="Type your answer..."
                 />
               )}
-              {testData.testType === 'fill_blanks' && (
+              {questionType === 'fill_blanks' && (
                 <FillBlanksInput
                   question={question}
                   answers={blanksAnswers}
@@ -217,9 +227,9 @@ export default function Quiz() {
               disabled
               className="w-full p-4 rounded-xl bg-gray-200 text-gray-400 font-semibold text-base cursor-not-allowed"
             >
-              {testData.testType === 'mcq'
+              {questionType === 'mcq'
                 ? 'Select an answer'
-                : testData.testType === 'identification'
+                : questionType === 'identification'
                   ? 'Type your answer'
                   : 'Fill in all blanks'}
             </button>

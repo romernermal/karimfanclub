@@ -3,12 +3,14 @@ import { useState } from 'react'
 export default function FlashCard({ question, testType }) {
   const [flipped, setFlipped] = useState(false)
 
+  const type = question.type || testType
+
   const answerText =
-    testType === 'mcq'
+    type === 'mcq'
       ? question.options[question.correctAnswer]
-      : testType === 'identification'
+      : type === 'identification'
         ? question.answer
-        : testType === 'fill_blanks'
+        : type === 'fill_blanks'
           ? question.answers.join(', ')
           : ''
 

@@ -1,0 +1,24 @@
+{
+  "title": "Mixed-Type Example",
+  "testType": "mcq",
+  "questions": [
+    {
+      "id": "mix-q1",
+      "question": "What color is the sky on a clear day?",
+      "options": ["Red", "Blue", "Green", "Yellow"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "mix-q2",
+      "type": "identification",
+      "question": "What is the chemical symbol for water?",
+      "answer": "H2O"
+    },
+    {
+      "id": "mix-q3",
+      "type": "fill_blanks",
+      "question": "The three states of matter are _____, _____, and _____.",
+      "answers": ["solid", "liquid", "gas"]
+    }
+  ]
+}

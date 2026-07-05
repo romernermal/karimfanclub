@@ -35,6 +35,8 @@ export default function ModeSelection() {
   const startQuiz = useQuizStore((s) => s.startQuiz)
   const subjects = useQuizStore((s) => s.subjects)
   const loadTestData = useQuizStore((s) => s.loadTestData)
+  const shuffleEnabled = useQuizStore((s) => s.shuffleEnabled)
+  const setShuffleEnabled = useQuizStore((s) => s.setShuffleEnabled)
 
   const subject = subjects.find((s) => s.id === subjectId)
   const testMeta = subject?.tests.find((t) => t.id === testId)
@@ -77,7 +79,17 @@ export default function ModeSelection() {
         </button>
 
         <h1 className="text-xl font-bold text-gray-900 mb-1">Choose Mode</h1>
-        <p className="text-sm text-gray-500 mb-6">{testMeta.id}</p>
+        <p className="text-sm text-gray-500 mb-4">{testMeta.id}</p>
+
+        <label className="flex items-center gap-3 p-4 mb-6 bg-white rounded-xl border border-gray-200 cursor-pointer select-none">
+          <input
+            type="checkbox"
+            checked={shuffleEnabled}
+            onChange={() => setShuffleEnabled(!shuffleEnabled)}
+            className="w-5 h-5 accent-blue-600 flex-shrink-0"
+          />
+          <span className="text-sm text-gray-700">Randomize question order</span>
+        </label>
 
         <div className="space-y-3">
           {MODES.map((mode) => (

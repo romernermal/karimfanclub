@@ -12,9 +12,10 @@ export default function AnswerKey({ userAnswers, test }) {
         )
         if (!question) return null
 
-        const correctAnswer = getCorrectAnswerText(question, test.testType)
+        const qType = question.type || test.testType
+        const correctAnswer = getCorrectAnswerText(question, qType)
         const userAnswerText =
-          test.testType === 'mcq'
+          qType === 'mcq'
             ? question.options[item.answer]
             : String(item.answer)
 
