@@ -41,13 +41,19 @@ export default function ModeSelection() {
 
   const subject = subjects.find((s) => s.id === subjectId)
   const isMasterRoute = testId === '__master__'
-  const testMeta = isMasterRoute ? null : subject?.tests.find((t) => t.id === testId)
+  const isSummaryRoute = testId === '__summary__'
+  const testMeta = isMasterRoute || isSummaryRoute ? null : subject?.tests.find((t) => t.id === testId)
 
   async function handleSelect(modeId) {
     if (isMasterRoute) {
       await buildMasterQuiz(subjectId)
       startQuiz(subjectId, '__master__', modeId)
       navigate(`/subject/${subjectId}/test/__master__/quiz`)
+    } else if (isSummaryRoute && subject?.summaryFileName) {
+      const summaryKey = `__summary__${subjectId}`
+      await loadTestData(summaryKey, subject.summaryFileName)
+      startQuiz(subjectId, '__summary__', modeId)
+      navigate(`/subject/${subjectId}/test/__summary__/quiz`)
     } else {
       if (testMeta?.fileName) {
         loadTestData(testId, testMeta.fileName)
@@ -57,7 +63,7 @@ export default function ModeSelection() {
     }
   }
 
-  if (!subject || (!isMasterRoute && !testMeta)) {
+  if (!subject || (!isMasterRoute && !isSummaryRoute && !testMeta)) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
@@ -88,7 +94,7 @@ export default function ModeSelection() {
 
         <h1 className="text-xl font-bold text-gray-900 mb-1">Choose Mode</h1>
         <p className="text-sm text-gray-500 mb-4">
-          {isMasterRoute ? 'Master Quiz — all tests combined' : testMeta?.id}
+          {isMasterRoute ? 'Master Quiz — all tests combined' : isSummaryRoute ? 'Summary Quiz — 60-item review' : testMeta?.id}
         </p>
 
         <label className="flex items-center gap-3 p-4 mb-6 bg-white rounded-xl border border-gray-200 cursor-pointer select-none">

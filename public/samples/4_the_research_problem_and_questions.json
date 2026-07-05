@@ -1,0 +1,371 @@
+{
+  "title": "The Research Problem and Research Question - Comprehensive Quiz",
+  "testType": "mcq",
+  "questions": [
+    {
+      "id": "prob-01",
+      "question": "Chapter I of the research paper is called:",
+      "options": [
+        "The Problem and Its Introduction (or background)",
+        "Review of Related Literature",
+        "Research Methodology",
+        "Results and Discussion"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "prob-02",
+      "question": "Which of the following is NOT a component of Chapter 1?",
+      "options": [
+        "Theoretical Framework",
+        "Research Design",
+        "Statement of the Problem",
+        "Definition of Terms"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "prob-03",
+      "type": "fill_blanks",
+      "question": "The components of Chapter 1 include: Introduction, Theoretical Framework, _____, Statement of the Problem, Significance of the Study, Scope and Limitations, and Definition of Terms.",
+      "answers": ["Conceptual Framework"]
+    },
+    {
+      "id": "prob-04",
+      "question": "The purpose of the introduction includes all of the following EXCEPT:",
+      "options": [
+        "The general definition of the topic/problem area",
+        "Historical basis for the existence of the problem",
+        "Detailed analysis of research findings",
+        "Efforts made towards addressing similar challenges"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "prob-05",
+      "question": "In the introduction, describing the existence of an unsatisfactory condition or a problem that needs a solution is called:",
+      "options": [
+        "Historical background",
+        "Presentation of the problem",
+        "Geographical conditions",
+        "Rationale of the study"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "prob-06",
+      "question": "Giving the historical background of the problem, if applicable, is part of the:",
+      "options": [
+        "Presentation of the problem",
+        "Historical background of the problem",
+        "Geographical conditions",
+        "Rationale of the study"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "prob-07",
+      "question": "Describing the geographical location of the study is part of the:",
+      "options": [
+        "Presentation of the problem",
+        "Historical background",
+        "Geographical conditions of the research locale",
+        "Rationale of the study"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "prob-08",
+      "question": "Giving the reason(s) why the study should be conducted is called the:",
+      "options": [
+        "Presentation of the problem",
+        "Historical background",
+        "Geographical conditions",
+        "Rationale of the study"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "prob-09",
+      "type": "fill_blanks",
+      "question": "The introduction should describe the existence of an unsatisfactory condition or a problem that needs a solution. This is called the _____ of the problem.",
+      "answers": ["presentation"]
+    },
+    {
+      "id": "prob-10",
+      "type": "fill_blanks",
+      "question": "The rationale of the study gives the _____ why the study should be conducted.",
+      "answers": ["reason(s)"]
+    },
+    {
+      "id": "prob-11",
+      "question": "Which of the following is a 'DO' in writing a research introduction?",
+      "options": [
+        "Be ambiguous in your writing",
+        "Explain the importance of your research topic",
+        "Elaborate on unrelated subjects",
+        "Forget the reader may not be familiar with details"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "prob-12",
+      "question": "Which of the following is a 'DON'T' in writing a research introduction?",
+      "options": [
+        "Focus on relevant aspects of your study",
+        "Articulate your ideas clearly",
+        "Be ambiguous in your writing",
+        "Engage readers by building a story"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "prob-13",
+      "question": "In the do's and don'ts table, what should you do regarding missing links and gaps?",
+      "options": [
+        "Ignore them",
+        "Talk about the main developments and missing links and gaps in your research area",
+        "Only focus on your findings",
+        "Avoid mentioning any gaps"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "prob-14",
+      "question": "In the do's and don'ts table, what is a common mistake regarding the length of the background?",
+      "options": [
+        "Writing a background that is too long or too short",
+        "Writing a perfect background",
+        "Writing a background with clear structure",
+        "Writing a background with all details"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "prob-15",
+      "question": "In the do's and don'ts table, what should you NOT forget to provide?",
+      "options": [
+        "A historical perspective",
+        "Only current data",
+        "Only future predictions",
+        "Only opinions"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "prob-16",
+      "question": "In the do's and don'ts table, what should you do with your findings?",
+      "options": [
+        "Ignore them",
+        "Engage your findings in a chronological order",
+        "Hide them",
+        "Only mention them in the conclusion"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "prob-17",
+      "question": "In the do's and don'ts table, what should you NOT forget to check?",
+      "options": [
+        "Your target journal's instructions for presenting the study background",
+        "Your personal preferences",
+        "Your colleagues' opinions",
+        "Your supervisor's schedule"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "prob-18",
+      "question": "According to the do's and don'ts, what should you do to engage readers?",
+      "options": [
+        "Build a story around the central theme of your research",
+        "Use complex jargon",
+        "Write long paragraphs",
+        "Avoid any narrative structure"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "prob-19",
+      "type": "fill_blanks",
+      "question": "In the do's and don'ts, one should _____ ideas in a clear and concise manner.",
+      "answers": ["articulate"]
+    },
+    {
+      "id": "prob-20",
+      "type": "fill_blanks",
+      "question": "In the do's and don'ts, one should NOT be _____ in writing, disorganized, or discuss unrelated subjects.",
+      "answers": ["ambiguous"]
+    },
+    {
+      "id": "prob-21",
+      "question": "A theoretical framework is defined as a foundational review of existing theories that serves as a _____ for developing the arguments you will use in your own work.",
+      "options": ["Blueprint", "Roadmap", "Conclusion", "Hypothesis"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "prob-22",
+      "question": "A theoretical framework can be considered a _____ that is borrowed by researchers to develop their own research inquiry.",
+      "options": ["Blueprint", "Roadmap", "Theory", "Design"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "prob-23",
+      "question": "A theoretical framework is a set of concepts, theories, ideas, and assumptions that help you understand a specific:",
+      "options": ["Research design", "Phenomenon or problem", "Data set", "Conclusion"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "prob-24",
+      "type": "fill_blanks",
+      "question": "A theoretical framework is a foundational review of existing _____ that serves as a roadmap for developing arguments in your own work.",
+      "answers": ["theories"]
+    },
+    {
+      "id": "prob-25",
+      "type": "fill_blanks",
+      "question": "A theoretical framework can be defined as a set of concepts, theories, ideas, and _____ that help you understand a specific phenomenon or problem.",
+      "answers": ["assumptions"]
+    },
+    {
+      "id": "prob-26",
+      "question": "A conceptual framework sets forth the standards to define a research question and find appropriate, meaningful answers for the:",
+      "options": ["Conclusion", "Same", "Problem", "Data"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "prob-27",
+      "question": "A conceptual framework connects the theories, assumptions, beliefs, and _____ behind your research.",
+      "options": ["Concepts", "Data", "Results", "Methods"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "prob-28",
+      "type": "fill_blanks",
+      "question": "A conceptual framework sets forth the _____ to define a research question and find appropriate, meaningful answers.",
+      "answers": ["standards"]
+    },
+    {
+      "id": "prob-29",
+      "question": "A conceptual framework connects the theories, assumptions, beliefs, and concepts behind your research. It helps to define a research question and find:",
+      "options": [
+        "Appropriate, meaningful answers",
+        "Statistical significance",
+        "Research funding",
+        "Publication opportunities"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "prob-30",
+      "question": "The schematic diagram is also known as the:",
+      "options": ["Conceptual framework diagram", "Research design diagram", "Data flow diagram", "Theory diagram"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "prob-31",
+      "question": "The schematic diagram shows the relationship between the:",
+      "options": [
+        "Independent and dependent variables",
+        "Research questions and hypotheses",
+        "Methodology and results",
+        "Introduction and conclusion"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "prob-32",
+      "question": "Figure 1 in the PDF is labeled as:",
+      "options": [
+        "Figure 1. Research Design",
+        "Figure 1. Schematic presentation between the independent and dependent variables",
+        "Figure 1. Theoretical Framework",
+        "Figure 1. Data Collection Process"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "prob-33",
+      "question": "Chapter 2 of the research paper is called:",
+      "options": [
+        "The Problem and Its Introduction",
+        "Review of Related Literature and Studies",
+        "Research Methodology",
+        "Results and Discussion"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "prob-34",
+      "question": "Chapter 3 of the research paper is called:",
+      "options": [
+        "The Problem and Its Introduction",
+        "Review of Related Literature and Studies",
+        "Research Methodology",
+        "Conclusion and Recommendation"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "prob-35",
+      "type": "fill_blanks",
+      "question": "The SIFT Method is mentioned in the PDF but not explained. Based on context, SIFT is likely a method for _____.",
+      "answers": ["evaluating information"]
+    },
+    {
+      "id": "prob-36",
+      "question": "Which of the following is a component of Chapter 3 (Research Methodology)?",
+      "options": [
+        "Theoretical Framework",
+        "Research Design",
+        "Definition of Terms",
+        "Significance of the Study"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "prob-37",
+      "question": "Which of the following is NOT a component of Chapter 3?",
+      "options": [
+        "Research Locale",
+        "Sampling Design",
+        "Validity and Reliability of Instruments",
+        "Statement of the Problem"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "prob-38",
+      "question": "According to the do's and don'ts, what should you do regarding the importance of your research topic?",
+      "options": [
+        "Explain the importance",
+        "Assume the reader knows its importance",
+        "Only mention it briefly",
+        "Avoid discussing it"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "prob-39",
+      "question": "According to the do's and don'ts, what should you NOT do regarding the reader?",
+      "options": [
+        "Assume the reader knows everything",
+        "Forget the reader may not be familiar with details",
+        "Only write for experts",
+        "Use technical jargon"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "prob-40",
+      "question": "What is the purpose of the introduction according to the PDF?",
+      "options": [
+        "To present the research methodology",
+        "To state the research hypothesis",
+        "To provide the general definition of the topic/problem area, historical basis, efforts made, and why they failed",
+        "To summarize the research findings"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

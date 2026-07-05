@@ -17,6 +17,8 @@ const useQuizStore = create((set, get) => ({
 
   masterQuizData: null,
   isMasterQuiz: false,
+  isSummaryQuiz: false,
+  summaryCacheKey: null,
 
   userAnswers: [],
   currentQuestionIndex: 0,
@@ -34,6 +36,7 @@ const useQuizStore = create((set, get) => ({
   },
 
   startQuiz(subjectId, testId, mode) {
+    const isSummary = testId === '__summary__'
     set({
       currentSubjectId: subjectId,
       currentTestId: testId,
@@ -43,6 +46,8 @@ const useQuizStore = create((set, get) => ({
       quizComplete: false,
       questionOrder: [],
       isMasterQuiz: testId === '__master__',
+      isSummaryQuiz: isSummary,
+      summaryCacheKey: isSummary ? `__summary__${subjectId}` : null,
     })
   },
 
@@ -85,8 +90,8 @@ const useQuizStore = create((set, get) => ({
   },
 
   initQuestionOrder() {
-    const { currentTestId, testsCache, shuffleEnabled, isMasterQuiz, masterQuizData } = get()
-    const test = isMasterQuiz ? masterQuizData : testsCache[currentTestId]
+    const { currentTestId, testsCache, shuffleEnabled, isMasterQuiz, masterQuizData, isSummaryQuiz, summaryCacheKey } = get()
+    const test = isMasterQuiz ? masterQuizData : isSummaryQuiz ? testsCache[summaryCacheKey] : testsCache[currentTestId]
     if (!test) return
 
     const count = test.questions.length
@@ -103,9 +108,9 @@ const useQuizStore = create((set, get) => ({
   },
 
   answerQuestion(answer) {
-    const { currentTestId, testsCache, currentQuestionIndex, currentMode, questionOrder, isMasterQuiz, masterQuizData } =
+    const { currentTestId, testsCache, currentQuestionIndex, currentMode, questionOrder, isMasterQuiz, masterQuizData, isSummaryQuiz, summaryCacheKey } =
       get()
-    const test = isMasterQuiz ? masterQuizData : testsCache[currentTestId]
+    const test = isMasterQuiz ? masterQuizData : isSummaryQuiz ? testsCache[summaryCacheKey] : testsCache[currentTestId]
     if (!test) return
 
     const effectiveIndex = questionOrder.length > 0 ? questionOrder[currentQuestionIndex] : currentQuestionIndex
@@ -126,8 +131,8 @@ const useQuizStore = create((set, get) => ({
   },
 
   nextQuestion() {
-    const { currentTestId, testsCache, currentQuestionIndex, isMasterQuiz, masterQuizData } = get()
-    const test = isMasterQuiz ? masterQuizData : testsCache[currentTestId]
+    const { currentTestId, testsCache, currentQuestionIndex, isMasterQuiz, masterQuizData, isSummaryQuiz, summaryCacheKey } = get()
+    const test = isMasterQuiz ? masterQuizData : isSummaryQuiz ? testsCache[summaryCacheKey] : testsCache[currentTestId]
     if (!test) return
 
     if (currentQuestionIndex + 1 >= test.questions.length) {
@@ -146,6 +151,8 @@ const useQuizStore = create((set, get) => ({
       currentQuestionIndex: 0,
       quizComplete: false,
       isMasterQuiz: false,
+      isSummaryQuiz: false,
+      summaryCacheKey: null,
     })
   },
 

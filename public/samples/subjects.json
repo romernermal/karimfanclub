@@ -3,11 +3,27 @@
     {
       "id": "first-aid",
       "name": "First Aid",
+      "summaryFileName": "First_Aid_Summary.json",
       "tests": [
         { "id": "LESSON 1", "fileName": "First_Aid_Lesson_1.json" },
         { "id": "LESSON 2", "fileName": "First_Aid_Lesson_2.json" },
         { "id": "LESSON 3", "fileName": "First_Aid_Lesson_3.json" },
         { "id": "First Quiz ni Sir", "fileName": "quiz1.json" }
+      ]
+    },
+    {
+      "id": "research",
+      "name": "Research",
+      "summaryFileName": "Research_Summary.json",
+      "tests": [
+        { "id": "1 - What is Research", "fileName": "1_what_is_research.json" },
+        { "id": "2 - Characteristics of a Researcher", "fileName": "2_characteristics_of_a_researcher.json" },
+        { "id": "3 - Writing a Research Title", "fileName": "3_writing_a_research_title.json" },
+        { "id": "4 - Research Problem and Questions", "fileName": "4_the_research_problem_and_questions.json" },
+        { "id": "6 - Ethics of Research", "fileName": "6_ethics_of_research.json" },
+        { "id": "7 - Citation of Sources", "fileName": "7_citation_of_sources.json" },
+        { "id": "9 - Types of Quantitative Research Design", "fileName": "9_types_of_quantitative_research_design.json" },
+        { "id": "Nature of Variables", "fileName": "nature_of_variables_quiz.json" }
       ]
     }
   ]

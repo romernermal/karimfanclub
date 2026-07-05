@@ -26,10 +26,12 @@ export default function Quiz() {
   } = useQuizStore()
 
   const subjects = useQuizStore((s) => s.subjects)
+  const isSummaryQuiz = useQuizStore((s) => s.isSummaryQuiz)
+  const summaryCacheKey = useQuizStore((s) => s.summaryCacheKey)
   const loadTestData = useQuizStore((s) => s.loadTestData)
   const subject = subjects.find((s) => s.id === subjectId)
   const testMeta = subject?.tests.find((t) => t.id === testId)
-  const testData = isMasterQuiz ? masterQuizData : testsCache[testId]
+  const testData = isMasterQuiz ? masterQuizData : isSummaryQuiz ? testsCache[summaryCacheKey] : testsCache[testId]
   const effectiveIndex = questionOrder.length > 0 ? questionOrder[currentQuestionIndex] : currentQuestionIndex
   const question = testData?.questions[effectiveIndex]
   const questionType = question?.type || testData?.testType
@@ -52,6 +54,9 @@ export default function Quiz() {
     }
     if (!testData && testMeta?.fileName) {
       loadTestData(testId, testMeta.fileName)
+    }
+    if (!testData && isSummaryQuiz && subject?.summaryFileName && summaryCacheKey) {
+      loadTestData(summaryCacheKey, subject.summaryFileName)
     }
   }, [])
 

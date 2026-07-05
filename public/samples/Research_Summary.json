@@ -1,0 +1,576 @@
+{
+  "title": "Research — 60-Item Summary Quiz",
+  "testType": "mcq",
+  "questions": [
+    {
+      "id": "res-sum-01",
+      "type": "mcq",
+      "question": "Which of the following best defines research?",
+      "options": [
+        "A casual gathering of opinions",
+        "A systematic and objective investigation to establish facts",
+        "A random collection of data",
+        "An informal discussion about a topic"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-02",
+      "type": "identification",
+      "question": "What term describes research that is based on observable and measurable phenomena?",
+      "answer": "Empirical"
+    },
+    {
+      "id": "res-sum-03",
+      "type": "mcq",
+      "question": "Which characteristic of research ensures that it follows an organized sequence of steps?",
+      "options": [
+        "Analytical",
+        "Systematic",
+        "Objective",
+        "Controlled"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-04",
+      "type": "fill_blanks",
+      "question": "Research is _____ in nature, meaning it is based on direct observation rather than theory alone.",
+      "answers": ["empirical"]
+    },
+    {
+      "id": "res-sum-05",
+      "type": "mcq",
+      "question": "The _____ nature of research means that conclusions are drawn based on evidence rather than personal biases.",
+      "options": [
+        "Subjective",
+        "Analytical",
+        "Objective",
+        "Controlled"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "res-sum-06",
+      "type": "identification",
+      "question": "What characteristic of research refers to the use of logical reasoning to analyze data?",
+      "answer": "Analytical"
+    },
+    {
+      "id": "res-sum-07",
+      "type": "mcq",
+      "question": "Research is conducted under _____ conditions to minimize the influence of extraneous factors.",
+      "options": [
+        "Natural",
+        "Controlled",
+        "Random",
+        "Flexible"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-08",
+      "type": "mcq",
+      "question": "What trait drives a researcher to ask questions and seek deeper understanding?",
+      "options": [
+        "Prudence",
+        "Intellectual curiosity",
+        "Perseverance",
+        "Creativity"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-09",
+      "type": "identification",
+      "question": "Which characteristic involves being careful and cautious in making conclusions?",
+      "answer": "Prudence"
+    },
+    {
+      "id": "res-sum-10",
+      "type": "mcq",
+      "question": "A researcher who accepts constructive feedback and admits when their ideas are wrong demonstrates:",
+      "options": [
+        "Intellectual honesty",
+        "Creativity",
+        "Perseverance",
+        "Prudence"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "res-sum-11",
+      "type": "identification",
+      "question": "What quality allows a researcher to evaluate information critically without bias?",
+      "answer": "Healthy criticism"
+    },
+    {
+      "id": "res-sum-12",
+      "type": "mcq",
+      "question": "The ability to generate innovative solutions and approaches in research is called:",
+      "options": [
+        "Resourcefulness",
+        "Creativity",
+        "Intellectual curiosity",
+        "Prudence"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-13",
+      "type": "fill_blanks",
+      "question": "A researcher must have _____ to continue working despite obstacles and challenges.",
+      "answers": ["perseverance"]
+    },
+    {
+      "id": "res-sum-14",
+      "type": "mcq",
+      "question": "Which characteristic involves being economical and making the most of available resources?",
+      "options": [
+        "Prudence",
+        "Resourcefulness",
+        "Perseverance",
+        "Intellectual curiosity"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-15",
+      "type": "identification",
+      "question": "What term describes a research title that is brief yet comprehensive?",
+      "answer": "Concise"
+    },
+    {
+      "id": "res-sum-16",
+      "type": "mcq",
+      "question": "A well-written research title should:",
+      "options": [
+        "Use complex jargon",
+        "Capture the essence of the study",
+        "Be at least 20 words",
+        "Include every variable in detail"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-17",
+      "type": "mcq",
+      "question": "In research titles, the independent variable is typically placed _____ the dependent variable.",
+      "options": [
+        "Before",
+        "After",
+        "With",
+        "Instead of"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "res-sum-18",
+      "type": "fill_blanks",
+      "question": "A research title must be _____ and clearly indicate the main focus of the study.",
+      "answers": ["clear"]
+    },
+    {
+      "id": "res-sum-19",
+      "type": "mcq",
+      "question": "Which of the following is NOT a recommended practice in writing research titles?",
+      "options": [
+        "Using abbreviations without explanation",
+        "Making the title concise",
+        "Identifying the main variables",
+        "Indicating the research design"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "res-sum-20",
+      "type": "fill_blanks",
+      "question": "A good research title should _____ the nature of the study and the variables involved.",
+      "answers": ["reflect"]
+    },
+    {
+      "id": "res-sum-21",
+      "type": "mcq",
+      "question": "In the title \"The Effect of Study Habits on Academic Performance,\" the dependent variable is:",
+      "options": [
+        "Study habits",
+        "Academic performance",
+        "Effect",
+        "Students"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-22",
+      "type": "mcq",
+      "question": "In Chapter 1 of a research paper, which section presents the background and context of the study?",
+      "options": [
+        "Statement of the Problem",
+        "Introduction",
+        "Scope and Limitations",
+        "Significance"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-23",
+      "type": "identification",
+      "question": "What part of the research paper outlines the specific questions the study aims to answer?",
+      "answer": "Statement of the Problem"
+    },
+    {
+      "id": "res-sum-24",
+      "type": "mcq",
+      "question": "The theoretical framework in a research study serves to:",
+      "options": [
+        "Present the research findings",
+        "Explain the theories that support the study",
+        "List all references",
+        "Describe the research methodology"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-25",
+      "type": "fill_blanks",
+      "question": "The _____ of the study explains who will benefit from the research and how.",
+      "answers": ["significance"]
+    },
+    {
+      "id": "res-sum-26",
+      "type": "mcq",
+      "question": "Which section of the research paper defines the boundaries and delimitations of the study?",
+      "options": [
+        "Introduction",
+        "Theoretical Framework",
+        "Scope and Limitations",
+        "Statement of the Problem"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "res-sum-27",
+      "type": "identification",
+      "question": "What is a focused, specific query that guides the data collection and analysis of a study?",
+      "answer": "Research question"
+    },
+    {
+      "id": "res-sum-28",
+      "type": "mcq",
+      "question": "The _____ provides the conceptual basis for the relationships among variables being studied.",
+      "options": [
+        "Significance",
+        "Scope and Limitations",
+        "Theoretical Framework",
+        "Introduction"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "res-sum-29",
+      "type": "mcq",
+      "question": "Which element is NOT typically part of Chapter 1 of a research paper?",
+      "options": [
+        "Research questions",
+        "Review of related literature",
+        "Significance of the study",
+        "Scope and limitations"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-30",
+      "type": "mcq",
+      "question": "The principle of informed consent requires that participants:",
+      "options": [
+        "Are paid for their participation",
+        "Are fully aware of the research purpose and procedures",
+        "Agree to participate without knowing the details",
+        "Participate only if they are adults"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-31",
+      "type": "fill_blanks",
+      "question": "The ethical principle that ensures participants' personal information is _____ is called confidentiality.",
+      "answers": ["protected"]
+    },
+    {
+      "id": "res-sum-32",
+      "type": "mcq",
+      "question": "Voluntary participation in research means that:",
+      "options": [
+        "Participants must complete the study once they start",
+        "Participants can withdraw at any time without penalty",
+        "Only volunteers can join a study",
+        "Participants must receive compensation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-33",
+      "type": "fill_blanks",
+      "question": "_____ means that the research should maximize benefits and minimize harm to participants.",
+      "answers": ["Beneficence"]
+    },
+    {
+      "id": "res-sum-34",
+      "type": "mcq",
+      "question": "The ethical principle of justice in research refers to:",
+      "options": [
+        "Treating all participants fairly and equitably",
+        "Ensuring participants are paid equally",
+        "Publishing all research findings",
+        "Using only one research method"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "res-sum-35",
+      "type": "identification",
+      "question": "What ethical principle requires researchers to respect the dignity and autonomy of participants?",
+      "answer": "Respect"
+    },
+    {
+      "id": "res-sum-36",
+      "type": "mcq",
+      "question": "Which of the following is a key requirement of ethical research?",
+      "options": [
+        "Deception without debriefing",
+        "Coercing participation",
+        "Protecting participant welfare",
+        "Withholding results from participants"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "res-sum-37",
+      "type": "mcq",
+      "question": "APA citation style primarily uses which system for in-text citations?",
+      "options": [
+        "Footnote system",
+        "Author-year system",
+        "Number system",
+        "Endnote system"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-38",
+      "type": "fill_blanks",
+      "question": "Sources cited within the _____ of a research paper are called in-text citations.",
+      "answers": ["body", "text"]
+    },
+    {
+      "id": "res-sum-39",
+      "type": "mcq",
+      "question": "The reference list in APA format should be arranged:",
+      "options": [
+        "In the order they appear in the text",
+        "Alphabetically by author's last name",
+        "Chronologically by publication date",
+        "Randomly"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-40",
+      "type": "fill_blanks",
+      "question": "A _____ is a unique alphanumeric string assigned to a journal article, while a URL provides a web address.",
+      "answers": ["DOI"]
+    },
+    {
+      "id": "res-sum-41",
+      "type": "mcq",
+      "question": "In APA in-text citation, the publication year should be placed:",
+      "options": [
+        "At the end of the sentence",
+        "After the author's name",
+        "Before the author's name",
+        "In a footnote"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-42",
+      "type": "identification",
+      "question": "What do you call the complete list of all sources cited in a research paper?",
+      "answer": "Reference list"
+    },
+    {
+      "id": "res-sum-43",
+      "type": "mcq",
+      "question": "When citing a work with three or more authors in APA, the in-text citation uses:",
+      "options": [
+        "All authors' names every time",
+        "The first author's name followed by et al.",
+        "The title of the work",
+        "Only the publication year"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-44",
+      "type": "mcq",
+      "question": "Which research design describes the current status of a phenomenon without manipulating variables?",
+      "options": [
+        "Experimental",
+        "Descriptive",
+        "Correlational",
+        "Quasi-experimental"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-45",
+      "type": "identification",
+      "question": "What design examines the relationship between two or more variables without establishing causation?",
+      "answer": "Correlational"
+    },
+    {
+      "id": "res-sum-46",
+      "type": "mcq",
+      "question": "A quasi-experimental design differs from a true experimental design primarily because it lacks:",
+      "options": [
+        "A dependent variable",
+        "Random assignment",
+        "An independent variable",
+        "Data analysis"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-47",
+      "type": "fill_blanks",
+      "question": "In an _____ research design, the researcher manipulates the independent variable and controls extraneous variables.",
+      "answers": ["experimental"]
+    },
+    {
+      "id": "res-sum-48",
+      "type": "mcq",
+      "question": "Ex-post-facto research examines:",
+      "options": [
+        "Future events",
+        "Effects that have already occurred",
+        "Ongoing experiments",
+        "Hypothetical scenarios"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-49",
+      "type": "identification",
+      "question": "What type of quantitative research design uses a control group and random assignment of participants?",
+      "answer": "Experimental"
+    },
+    {
+      "id": "res-sum-50",
+      "type": "mcq",
+      "question": "Which design determines the extent of a relationship between variables using statistical measures?",
+      "options": [
+        "Descriptive",
+        "Correlational",
+        "Quasi-experimental",
+        "Ex-post-facto"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-51",
+      "type": "mcq",
+      "question": "The variable that is manipulated by the researcher is called the:",
+      "options": [
+        "Dependent variable",
+        "Independent variable",
+        "Extraneous variable",
+        "Confounding variable"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-52",
+      "type": "identification",
+      "question": "What variable is measured or observed to determine the effect of the experimental manipulation?",
+      "answer": "Dependent variable"
+    },
+    {
+      "id": "res-sum-53",
+      "type": "mcq",
+      "question": "Variables that are not part of the study but could influence the results are called:",
+      "options": [
+        "Independent variables",
+        "Dependent variables",
+        "Extraneous variables",
+        "Categorical variables"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "res-sum-54",
+      "type": "identification",
+      "question": "What is the term for an extraneous variable that systematically varies with the independent variable?",
+      "answer": "Confounding variable"
+    },
+    {
+      "id": "res-sum-55",
+      "type": "mcq",
+      "question": "Which of the following is an example of a continuous variable?",
+      "options": [
+        "Gender",
+        "Temperature",
+        "Marital status",
+        "Blood type"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-56",
+      "type": "identification",
+      "question": "What type of variable consists of distinct categories with no numerical value or inherent order?",
+      "answer": "Categorical variable"
+    },
+    {
+      "id": "res-sum-57",
+      "type": "mcq",
+      "question": "An operational definition of a variable:",
+      "options": [
+        "States the theoretical meaning of the variable",
+        "Specifies how the variable will be measured or manipulated",
+        "Lists all possible values of the variable",
+        "Describes the history of the variable"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-58",
+      "type": "mcq",
+      "question": "The variable that the researcher tries to control or eliminate because it could affect the outcome is called a:",
+      "options": [
+        "Independent variable",
+        "Dependent variable",
+        "Confounding variable",
+        "Categorical variable"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "res-sum-59",
+      "type": "mcq",
+      "question": "Which of the following best describes a hypothesis?",
+      "options": [
+        "A proven fact",
+        "A tentative explanation that can be tested",
+        "A research finding",
+        "A literature review"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-sum-60",
+      "type": "identification",
+      "question": "What is the term for the process of defining a variable in terms of how it will be measured or manipulated?",
+      "answer": "Operationalization"
+    }
+  ]
+}

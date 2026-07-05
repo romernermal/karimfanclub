@@ -13,10 +13,12 @@ export default function Results() {
   const currentMode = useQuizStore((s) => s.currentMode)
   const currentSubjectId = useQuizStore((s) => s.currentSubjectId)
   const currentTestId = useQuizStore((s) => s.currentTestId)
+  const isSummaryQuiz = useQuizStore((s) => s.isSummaryQuiz)
+  const summaryCacheKey = useQuizStore((s) => s.summaryCacheKey)
   const resetQuiz = useQuizStore((s) => s.resetQuiz)
 
   const isFlashcards = currentMode === 'flashcards'
-  const testData = testsCache[testId]
+  const testData = isSummaryQuiz ? testsCache[summaryCacheKey] : testsCache[testId]
 
   const totalQuestions = testData?.questions?.length || 0
   const score = userAnswers.filter((a) => a.isCorrect).length

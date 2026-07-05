@@ -43,7 +43,7 @@ export default function TestSelection() {
             <button
               onClick={() => navigate(`/subject/${subjectId}/test/__master__/mode`)}
               className="w-full p-5 rounded-2xl bg-gradient-to-r from-purple-600 to-violet-500 text-white text-left
-                shadow-lg animate-shake transition-transform active:scale-[0.98] min-h-[72px]"
+                shadow-lg transition-transform active:scale-[0.98] min-h-[72px]"
             >
               <div className="flex items-center gap-3">
                 <span className="text-2xl">⭐</span>
@@ -51,6 +51,24 @@ export default function TestSelection() {
                   <p className="font-bold text-base">Master Quiz</p>
                   <p className="text-sm text-purple-100 mt-0.5">
                     Combine all {subject.tests.length} tests into one quiz
+                  </p>
+                </div>
+              </div>
+            </button>
+          )}
+
+          {subject.summaryFileName && (
+            <button
+              onClick={() => navigate(`/subject/${subjectId}/test/__summary__/mode`)}
+              className="w-full p-5 rounded-2xl bg-gradient-to-r from-amber-500 to-yellow-500 text-white text-left
+                shadow-lg transition-transform active:scale-[0.98] min-h-[72px]"
+            >
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">📋</span>
+                <div>
+                  <p className="font-bold text-base">Summary Quiz</p>
+                  <p className="text-sm text-amber-100 mt-0.5">
+                    60-item comprehensive review
                   </p>
                 </div>
               </div>
