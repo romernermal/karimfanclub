@@ -1,0 +1,296 @@
+{
+  "title": "Citation of Sources - Comprehensive Quiz",
+  "testType": "mcq",
+  "questions": [
+    {
+      "id": "cit-01",
+      "question": "References are arranged alphabetically in some papers or in order of sequence as it comes out in the paper. This holds the summary of the information of all of your:",
+      "options": ["Sources", "Data", "Findings", "Conclusions"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cit-02",
+      "question": "Which of the following is NOT information needed in making a referencing list?",
+      "options": [
+        "The author's name",
+        "The title of the book/journal/article",
+        "The researcher's personal opinion",
+        "The publisher and year published"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cit-03",
+      "type": "fill_blanks",
+      "question": "For web sources, the referencing list requires a Uniform Resource Locator (URL) or web address, the date of access, or a _____.",
+      "answers": ["Digital Object Identifier (DOI)"]
+    },
+    {
+      "id": "cit-04",
+      "question": "What does APA stand for in APA format?",
+      "type": "identification",
+      "answer": "American Psychological Association"
+    },
+    {
+      "id": "cit-05",
+      "question": "APA style was developed by social and behavioral scientists to standardize:",
+      "options": ["Data collection", "Scientific writing", "Research design", "Statistical analysis"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-06",
+      "question": "The hanging indent in APA format is:",
+      "options": [
+        "0.5 inch or 1.27 cm (one tab space)",
+        "1 inch or 2.54 cm",
+        "0.25 inch or 0.64 cm",
+        "No indent is used"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cit-07",
+      "question": "What is the penalty for plagiarism according to the PDF?",
+      "options": [
+        "One year of imprisonment",
+        "Six years of imprisonment and a fine of fifty thousand to one hundred fifty thousand pesos",
+        "Only a fine of ten thousand pesos",
+        "No penalty is mentioned"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-08",
+      "question": "The Cybercrime law that addresses online plagiarism is:",
+      "options": ["Republic Act 10175", "Republic Act 10871", "Republic Act 10121", "Republic Act 10931"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cit-09",
+      "question": "In APA format, the reference entry for a book typically includes the author's name, title, publisher, and:",
+      "options": ["Page numbers", "Year of publication", "Editor's name only", "Volume number"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-10",
+      "question": "Which of the following is an example of a book reference in APA format?",
+      "options": [
+        "Sutevski, D. (2022, March 9). 10 Reasons Your Employees Should Have Bonuses. Entrepreneurship in a Box.",
+        "Marquez-Fong, S. E., & Tigno, C. (2016). Practical Research 1. Vibal Group, Inc.",
+        "Increase your profitability. (n.d.). Business Gateway.",
+        "Roberts, B. W., et al. (2009). What is conscientiousness?"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-11",
+      "question": "In the reference entry 'Sutevski, D. (2022, March 9). 10 Reasons Your Employees Should Have Bonuses And Stipends. Entrepreneurship in a Box. https://www...' this is an example of a:",
+      "options": ["Book", "Website article", "Journal article", "Newspaper article"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-12",
+      "question": "When citing a website article with no author and no date, what should be used in place of the author's name?",
+      "options": [
+        "The title of the article",
+        "The name of the website",
+        "'Anonymous'",
+        "The URL only"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cit-13",
+      "question": "In the reference entry 'Del Castillo, M. R. & Gayao, R. G. (2010). A Municipality's Experience... JPAIR Multidisciplinary Research Journal, 4(1).' this is an example of a:",
+      "options": ["Book", "Website article", "Journal article", "Newspaper article"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cit-14",
+      "question": "When a journal article has multiple authors, how should they be listed in the reference entry?",
+      "options": [
+        "Only the first author is listed followed by 'et al.'",
+        "All authors are listed in the order they appear",
+        "Only the corresponding author is listed",
+        "Authors are listed alphabetically by first name"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-15",
+      "question": "An in-text citation is a citation within your writing that shows where you found your information, facts, quotes, and:",
+      "options": ["Data", "Research", "Conclusions", "Opinions"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-16",
+      "question": "All APA in-text citations require the author's last name and the year of publication. Page numbers are required for:",
+      "options": [
+        "All citations",
+        "Direct quotes only",
+        "Paraphrased information only",
+        "No citations"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-17",
+      "question": "If a source has no date, what abbreviation should be used in the in-text citation?",
+      "options": ["(n.d.)", "(no date)", "(N/A)", "(0)"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cit-18",
+      "question": "The two types of in-text citation formats in APA are:",
+      "options": [
+        "Parenthetical and narrative",
+        "Direct and indirect",
+        "Primary and secondary",
+        "Formal and informal"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cit-19",
+      "question": "In a parenthetical citation, all citation information is placed:",
+      "options": [
+        "Within the sentence",
+        "At the end of the sentence in parentheses",
+        "In the footer",
+        "At the beginning of the sentence"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-20",
+      "question": "In a narrative citation, the author's name is:",
+      "options": [
+        "Placed in parentheses at the end",
+        "Part of the text of the sentence",
+        "Not included at all",
+        "Placed in the footer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-21",
+      "question": "In the example 'Stein (2018) studied whether the early onset of Alzheimer's disease... His findings revealed... (p. 42),' this is an example of a:",
+      "options": ["Parenthetical citation", "Narrative citation", "Reference entry", "Bibliography"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-22",
+      "question": "In the example '...the socially constructed nature of reality... (Denzin & Lincoln, 2011, p. 8),' this is an example of a:",
+      "options": ["Parenthetical citation", "Narrative citation", "Reference entry", "Bibliography"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cit-23",
+      "question": "According to the PDF, which of the following is a phrase that signals an idea belongs to another writer?",
+      "options": [
+        "I believe that...",
+        "According to Starr (2010)...",
+        "In my opinion...",
+        "It is obvious that..."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-24",
+      "type": "fill_blanks",
+      "question": "Phrases that signal an idea belongs to another writer include: 'According to Starr (2010)...', 'As Starr (2010) noted...', and 'In the words of Starr (2010)...' These are examples of _____ in-text citations.",
+      "answers": ["narrative"]
+    },
+    {
+      "id": "cit-25",
+      "question": "What is NOT included in APA Style reference list entries and in-text citations?",
+      "options": [
+        "Author's last name",
+        "Year of publication",
+        "Academic credentials and professional titles",
+        "Page numbers for direct quotes"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cit-26",
+      "question": "In APA title case, which of the following should be capitalized in a paper title?",
+      "options": [
+        "All minor words (conjunctions of three letters or fewer)",
+        "All prepositions regardless of length",
+        "All nouns, verbs, adjectives, adverbs, and words of four letters or more",
+        "Only the first word of the title"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cit-27",
+      "question": "In APA title case, which of the following should be lowercased?",
+      "options": [
+        "Nouns and verbs",
+        "Conjunctions of three letters or fewer, prepositions of three letters or fewer, and articles 'a,' 'an,' and 'the'",
+        "Adjectives and adverbs",
+        "Words of four letters or more"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-28",
+      "question": "In APA title case, the second part of hyphenated major words should be:",
+      "options": ["Lowercased", "Capitalized", "Ignored", "Italicized"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-29",
+      "question": "In APA title case, which of the following is capitalized because it is a verb?",
+      "options": ["and", "of", "is", "the"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cit-30",
+      "question": "In APA title case, the word 'with' is capitalized because it has how many letters?",
+      "options": ["Two", "Three", "Four", "Five"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "cit-31",
+      "question": "In a reference entry, how should the paper title be formatted?",
+      "options": [
+        "In sentence case",
+        "In title case",
+        "All uppercase",
+        "All lowercase"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-32",
+      "type": "fill_blanks",
+      "question": "In APA format, the paper title should be _____ and placed one double-spaced blank line between the paper title and the author names.",
+      "answers": ["bold"]
+    },
+    {
+      "id": "cit-33",
+      "question": "In the reference entry 'Reyes, A., & Oronce, O. (2024). E-Math: Worktext in General Mathematics (2nd ed.). REX Book Store,' the '(2nd ed.)' indicates:",
+      "options": [
+        "The number of authors",
+        "The edition of the book",
+        "The volume number",
+        "The page number"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "cit-34",
+      "question": "In the journal reference 'Roberts, B. W., Lejuez, C., Krueger, R. F., Richards, J. M., & Hill, P. L. (2009). What is conscientiousness and how can it be assessed? Developmental Psychology, 50(5), 1315-1330,' the volume number is:",
+      "options": ["50", "5", "1315-1330", "2009"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "cit-35",
+      "question": "In the journal reference 'Roberts, B. W., et al. (2009). What is conscientiousness... Developmental Psychology, 50(5), 1315-1330,' the issue number is:",
+      "options": ["50", "5", "1315-1330", "2009"],
+      "correctAnswer": 1
+    }
+  ]
+}

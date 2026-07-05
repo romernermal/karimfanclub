@@ -1,0 +1,446 @@
+{
+  "title": "First Aid — 60-Item Summary Quiz",
+  "testType": "mcq",
+  "questions": [
+    {
+      "id": "fa-sum-01",
+      "question": "What is the very first action you must take once you recognize that an emergency has occurred?",
+      "options": [
+        "Start CPR immediately",
+        "Make sure the scene is safe for you, the victim, and bystanders",
+        "Call for help",
+        "Check the victim's pulse"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-02",
+      "type": "identification",
+      "question": "What does the acronym PPE stand for in emergency care?",
+      "answer": "Personal Protective Equipment"
+    },
+    {
+      "id": "fa-sum-03",
+      "question": "Which of the following is the correct sequence of the Emergency Action Principles?",
+      "options": [
+        "Initial Assessment → Survey the Scene → Activate Medical Assistance → Secondary Assessment → Referral",
+        "Survey the Scene → Activate Medical Assistance → Initial Assessment → Secondary Assessment → Referral",
+        "Activate Medical Assistance → Survey the Scene → Initial Assessment → Secondary Assessment → Referral",
+        "Survey the Scene → Initial Assessment → Activate Medical Assistance → Secondary Assessment → Referral"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-04",
+      "type": "fill_blanks",
+      "question": "The three components of INITIAL RESPONSE are: ask for _____, intervene, and do no further harm.",
+      "answers": ["HELP"]
+    },
+    {
+      "id": "fa-sum-05",
+      "question": "When surveying the scene, 'mechanism of injury' refers to:",
+      "options": [
+        "The victim's medical history",
+        "How the injury occurred (e.g., fall, burn, crush)",
+        "The number of bystanders",
+        "The availability of PPE"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-06",
+      "question": "For an unwitnessed collapse of a child or infant, how much CPR should be given before leaving to activate the emergency response system?",
+      "options": ["1 cycle", "2 minutes (approximately 5 cycles)", "3 minutes", "5 minutes"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-07",
+      "type": "identification",
+      "question": "What acronym is used to remember the patient history interview during the secondary assessment?",
+      "answer": "SAMPLE"
+    },
+    {
+      "id": "fa-sum-08",
+      "type": "fill_blanks",
+      "question": "In the Golden Rules of First Aid (DOs), rescuers should: obtain _____ when possible, identify yourself, respect the victim's modesty and privacy, care for the most serious injuries first, and loosen tight clothing.",
+      "answers": ["consent"]
+    },
+    {
+      "id": "fa-sum-09",
+      "question": "Which of the following is a 'DON'T' according to the Golden Rules of First Aid?",
+      "options": [
+        "Loosen tight clothing",
+        "Care for the most serious injuries first",
+        "Leave the victim alone except to get help",
+        "Obtain consent when possible"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fa-sum-10",
+      "type": "identification",
+      "question": "In the CAB-D approach to BLS, what does 'D' stand for?",
+      "answer": "Defibrillation"
+    },
+    {
+      "id": "fa-sum-11",
+      "question": "According to the 2015 AHA Guidelines, what change was made to the CPR sequence?",
+      "options": [
+        "Change in sequence to A-B-C",
+        "Change in sequence to C-A-B",
+        "Addition of look, listen and feel",
+        "Removal of chest compressions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-12",
+      "question": "In high-quality chest compressions, the recommended rate is:",
+      "options": ["60–80 per minute", "80–100 per minute", "100–120 per minute", "120–140 per minute"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fa-sum-13",
+      "type": "identification",
+      "question": "What is the recommended depth of chest compressions in adult CPR?",
+      "answer": "2 inches (5 cm)"
+    },
+    {
+      "id": "fa-sum-14",
+      "question": "The compression-to-ventilation ratio for single-rescuer adult CPR is:",
+      "options": ["15:2", "30:2", "10:1", "5:1"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-15",
+      "type": "fill_blanks",
+      "question": "The five steps of Hands-Only CPR in the New Normal are: 1. CHECK, 2. _____, 3. COVER, 4. COMPRESS, 5. CONNECT.",
+      "answers": ["CALL"]
+    },
+    {
+      "id": "fa-sum-16",
+      "question": "In AED use, what is the correct sequence of actions?",
+      "options": [
+        "Attach pads → Turn on → Analyze → Shock → Resume CPR",
+        "Turn on → Attach pads → Analyze → Shock → Resume CPR",
+        "Attach pads → Analyze → Turn on → Shock → Resume CPR",
+        "Analyze → Turn on → Attach pads → Shock → Resume CPR"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-17",
+      "type": "identification",
+      "question": "What does ROSC stand for in resuscitation?",
+      "answer": "Return of Spontaneous Circulation"
+    },
+    {
+      "id": "fa-sum-18",
+      "question": "The Chain of Survival was first introduced in what year?",
+      "options": ["1985", "1991", "1995", "2000"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-19",
+      "question": "BLS does NOT include which of the following?",
+      "options": ["CPR", "Use of AED", "Use of drugs or invasive skills", "Airway management"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fa-sum-20",
+      "type": "identification",
+      "question": "What is the Philippine law that mandates CPR training in schools and workplaces?",
+      "answer": "RA 10871"
+    },
+    {
+      "id": "fa-sum-21",
+      "question": "A patient with a completely obstructed airway will show:",
+      "options": [
+        "Normal voice",
+        "Changed voice with noisy breathing",
+        "No respiration despite great effort (paradox respiration)",
+        "Effective coughing"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fa-sum-22",
+      "type": "fill_blanks",
+      "question": "The Primary Assessment uses the mnemonic A-B-C-D-E: A for Airway, B for _____, C for Circulation, D for Disability, and E for Exposure.",
+      "answers": ["Breathing"]
+    },
+    {
+      "id": "fa-sum-23",
+      "type": "identification",
+      "question": "What does the AVPU scale stand for in assessing a victim's level of consciousness?",
+      "answer": "Alert, Voice, Pain, Unresponsive"
+    },
+    {
+      "id": "fa-sum-24",
+      "question": "After delivering a shock with an AED, the rescuer should immediately:",
+      "options": [
+        "Check for a pulse",
+        "Perform CPR for 2 minutes",
+        "Turn off the AED",
+        "Remove the pads"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-25",
+      "question": "If a victim starts to breathe normally after resuscitation, they should be placed in:",
+      "options": ["Supine position", "Recovery position", "Prone position", "Sitting position"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-26",
+      "type": "identification",
+      "question": "In the STOPSS mnemonic for when to stop CPR, what does the first 'S' stand for?",
+      "answer": "Spontaneous breathing/circulation resumes"
+    },
+    {
+      "id": "fa-sum-27",
+      "question": "In the DCAP-BTLS head-to-toe assessment acronym, 'C' stands for:",
+      "options": ["Cuts", "Contusions", "Cramps", "Cyanosis"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-28",
+      "type": "identification",
+      "question": "What maneuver is used to relieve severe airway obstruction in a conscious adult?",
+      "answer": "Heimlich Maneuver"
+    },
+    {
+      "id": "fa-sum-29",
+      "question": "Which triage tag color indicates the highest priority (Immediate) patients?",
+      "options": ["Red", "Yellow", "Green", "Black"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fa-sum-30",
+      "type": "identification",
+      "question": "What does MCI stand for in emergency management?",
+      "answer": "Mass Casualty Incident"
+    },
+    {
+      "id": "fa-sum-31",
+      "question": "In the START triage algorithm, what does the 'M' in RPM stand for?",
+      "options": ["Movement", "Mental Status", "Motor Response", "Mortality"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-32",
+      "type": "fill_blanks",
+      "question": "The four standard triage colors are: RED for Immediate, _____ for Delayed, GREEN for Minor (walking wounded), and BLACK for Deceased/Expectant.",
+      "answers": ["YELLOW"]
+    },
+    {
+      "id": "fa-sum-33",
+      "type": "identification",
+      "question": "Which pediatric triage tool is a modification of START designed for children aged 1–8 years?",
+      "answer": "JumpSTART"
+    },
+    {
+      "id": "fa-sum-34",
+      "question": "In START, if a patient has respirations greater than 30 per minute, what tag is assigned?",
+      "options": ["Red", "Yellow", "Green", "Black"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fa-sum-35",
+      "question": "In START, if a patient is not breathing after opening the airway with the Head-Tilt method, what tag is assigned?",
+      "options": ["Red", "Yellow", "Green", "Black"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "fa-sum-36",
+      "type": "identification",
+      "question": "What type of triage approach does SALT stand for: Sort, Assess, Lifesaving Interventions, and?",
+      "answer": "Treatment/Transport"
+    },
+    {
+      "id": "fa-sum-37",
+      "question": "During the secondary assessment, vital signs should be checked every 15 minutes if the victim's condition is:",
+      "options": ["Unstable", "Stable", "Critical", "Deteriorating"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-38",
+      "type": "identification",
+      "question": "What term refers to transferring the victim to a hospital or advanced healthcare facility for definitive treatment?",
+      "answer": "Referral"
+    },
+    {
+      "id": "fa-sum-39",
+      "type": "fill_blanks",
+      "question": "In the Golden Rules of First Aid (DON'Ts), rescuers must NOT: leave the victim _____ except to get help, make any unrealistic promises, or trust the judgment of a confused person.",
+      "answers": ["alone"]
+    },
+    {
+      "id": "fa-sum-40",
+      "question": "According to the BLS Assessment flow, an unconscious patient should receive:",
+      "options": [
+        "Secondary assessment only",
+        "BLS Assessment → Primary Assessment → Secondary Assessment",
+        "Only Primary Assessment",
+        "Immediate referral to hospital"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-41",
+      "type": "identification",
+      "question": "In the AVPU scale, what does 'P' stand for?",
+      "answer": "Pain"
+    },
+    {
+      "id": "fa-sum-42",
+      "question": "During the COVER step of New Normal CPR, what should be covered?",
+      "options": [
+        "Only the rescuer's mouth",
+        "Only the victim's mouth",
+        "Rescuer's and victim's mouth and nose with a surgical mask or cloth",
+        "Only the victim's nose"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "fa-sum-43",
+      "type": "identification",
+      "question": "What emergency hotline number is used for EMS access in the Philippines?",
+      "answer": "911"
+    },
+    {
+      "id": "fa-sum-44",
+      "question": "Once the heart ceases to function, a healthy human brain may survive without oxygen for up to how many minutes without permanent damage?",
+      "options": ["2 minutes", "4 minutes", "6 minutes", "10 minutes"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-45",
+      "type": "identification",
+      "question": "What is the technique of tilting the head and lifting the chin to open the airway called?",
+      "answer": "Head-Tilt, Chin-Lift Maneuver"
+    },
+    {
+      "id": "fa-sum-46",
+      "question": "The principle 'Do no further harm' in initial response emphasizes that the rescuer should:",
+      "options": [
+        "Always perform CPR",
+        "Avoid causing additional injury to the victim",
+        "Move the victim immediately",
+        "Give medications without training"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-47",
+      "type": "fill_blanks",
+      "question": "In the SAMPLE mnemonic, 'L' stands for _____ taken, and 'E' stands for _____ prior to injury or incident.",
+      "answers": ["Last meal", "Events"]
+    },
+    {
+      "id": "fa-sum-48",
+      "question": "What is the hardest triage priority to deal with emotionally?",
+      "options": ["Red", "Yellow", "Green", "Black"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "fa-sum-49",
+      "type": "fill_blanks",
+      "question": "In the DCAP-BTLS head-to-toe assessment, 'P' stands for _____ or Penetrations.",
+      "answers": ["Punctures"]
+    },
+    {
+      "id": "fa-sum-50",
+      "type": "identification",
+      "question": "What drug is used by advanced medical services to stimulate a stopped or severely slowed heart?",
+      "answer": "Epinephrine"
+    },
+    {
+      "id": "fa-sum-51",
+      "question": "The Emergency Action Principle 'Survey the Scene' and the START triage step both require the rescuer to first:",
+      "options": [
+        "Check for a pulse",
+        "Ensure scene safety before approaching victims",
+        "Begin chest compressions",
+        "Apply oxygen"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-52",
+      "type": "identification",
+      "question": "In the context of the Emergency Action Principles, what is the main difference between the Primary Assessment and the Secondary Assessment?",
+      "answer": "Primary Assessment checks life-threatening conditions (ABCs); Secondary Assessment involves a head-to-toe exam and SAMPLE history"
+    },
+    {
+      "id": "fa-sum-53",
+      "question": "In an MCI where there are more victims than available rescuers, which principle from standard First Aid is replaced by triage?",
+      "options": [
+        "Care for the most serious injuries first (all receive immediate care)",
+        "Call First before starting care",
+        "Use an AED on every unconscious victim",
+        "Perform a full head-to-toe exam on every victim"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fa-sum-54",
+      "type": "fill_blanks",
+      "question": "Both BLS and START triage assess circulation/perfusion: BLS checks for a _____ (carotid), while START checks for a _____ pulse.",
+      "answers": ["pulse", "radial"]
+    },
+    {
+      "id": "fa-sum-55",
+      "question": "The 'Activate Medical Assistance' step in the Emergency Action Principles corresponds most directly to which link in the Chain of Survival?",
+      "options": [
+        "Prevention and Preparedness",
+        "Activation of Emergency Medical Services",
+        "Advance Life Support",
+        "Post-cardiac Arrest Care"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-56",
+      "type": "identification",
+      "question": "When surveying the scene and finding multiple victims, what system of prioritizing care should be used?",
+      "answer": "Triage"
+    },
+    {
+      "id": "fa-sum-57",
+      "question": "A rescuer who applies a RED tag to a non-breathing patient after opening the airway is correctly applying which principle from both BLS and triage?",
+      "options": [
+        "Always perform 2 minutes of CPR first",
+        "A non-breathing patient with a pulse after airway opening is still an immediate priority",
+        "Tag all non-breathing patients as BLACK",
+        "Begin chest compressions before assessing breathing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-sum-58",
+      "type": "fill_blanks",
+      "question": "The secondary assessment (head-to-toe exam) uses the mnemonic DCAP-BTLS, while the patient history interview uses the mnemonic _____.",
+      "answers": ["SAMPLE"]
+    },
+    {
+      "id": "fa-sum-59",
+      "type": "identification",
+      "question": "What do the Emergency Action Principles, BLS, and Triage all have in common as their first priority?",
+      "answer": "Scene safety / ensuring the scene is safe"
+    },
+    {
+      "id": "fa-sum-60",
+      "question": "Which of the following best integrates the three lessons (Emergency Care, BLS, and Triage) into a single emergency response framework?",
+      "options": [
+        "Check scene safety → Assess each victim using CAB-D → Tag and transport according to severity",
+        "Start CPR immediately on all victims → Call for help → Tag everyone as RED",
+        "Do a head-to-toe exam first → Then decide whether to do CPR or apply a tag",
+        "Activate EMS only after all victims have been fully treated on scene"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

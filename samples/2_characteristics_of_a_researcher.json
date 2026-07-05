@@ -1,0 +1,186 @@
+{
+  "title": "Characteristics of a Researcher - Comprehensive Quiz",
+  "testType": "mcq",
+  "questions": [
+    {
+      "id": "char-01",
+      "question": "How many characteristics of a researcher are discussed in the PDF?",
+      "options": ["5", "6", "7", "8"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "char-02",
+      "question": "Which characteristic involves undertaking deep thinking and inquiry on the nature of observations and phenomena?",
+      "options": ["Creativity", "Curiosity", "Prudence", "Perseverance"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "char-03",
+      "question": "A research-oriented researcher is described as having deep thinking and inquiry on the nature of observations and phenomena. This is the characteristic of:",
+      "options": ["Creativity", "Curiosity", "Courage", "Intellectual Honesty"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "char-04",
+      "question": "Which characteristic describes a resourceful investigator who finds new research topics, new problems, new solutions, and new perspectives?",
+      "options": ["Curiosity", "Creativity", "Prudence", "Open-mindedness"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "char-05",
+      "question": "Creativity allows a researcher to expand or even replace:",
+      "options": ["Data sets", "Established ones (theories/perspectives)", "Research methods", "Funding sources"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "char-06",
+      "type": "fill_blanks",
+      "question": "A resourceful investigator with _____ finds new research topics, new problems, new solutions, and new perspectives.",
+      "answers": ["creativity"]
+    },
+    {
+      "id": "char-07",
+      "question": "Which characteristic requires a researcher to be analytical and logical in conducting a scientific research study at the right time and the right place wisely and economically?",
+      "options": ["Perseverance", "Curiosity", "Prudence", "Courage"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "char-08",
+      "question": "An active researcher who is analytical and logical in conducting research at the right time and place wisely and economically demonstrates:",
+      "options": ["Intellectual Honesty", "Prudence", "Creativity", "Open-mindedness"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "char-09",
+      "type": "fill_blanks",
+      "question": "Prudence means being _____ and logical in conducting research at the right time and place wisely and economically.",
+      "answers": ["analytical"]
+    },
+    {
+      "id": "char-10",
+      "question": "Which characteristic is defined by a productive researcher being dedicated to his/her specific field of interest even though scientific outcomes may take a long time or be negative?",
+      "options": ["Courage", "Perseverance", "Curiosity", "Prudence"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "char-11",
+      "question": "A productive researcher is dedicated to his/her specific field of interest. This describes:",
+      "options": ["Perseverance", "Creativity", "Intellectual Honesty", "Open-mindedness"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "char-12",
+      "question": "Scientific outcomes may take a long time or even be negative. A researcher with which characteristic will continue despite this?",
+      "options": ["Prudence", "Creativity", "Perseverance", "Curiosity"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "char-13",
+      "type": "fill_blanks",
+      "question": "A productive researcher with _____ is dedicated to his/her specific field of interest even when outcomes take a long time or are negative.",
+      "answers": ["perseverance"]
+    },
+    {
+      "id": "char-14",
+      "question": "Which characteristic involves being willing to push through given boundaries of security and to take some risk of failure and rejection?",
+      "options": ["Perseverance", "Prudence", "Courage", "Intellectual Honesty"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "char-15",
+      "question": "An impactful researcher who is willing to take risks of failure and rejection demonstrates:",
+      "options": ["Courage", "Creativity", "Curiosity", "Open-mindedness"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "char-16",
+      "question": "Courage involves pushing through given boundaries of:",
+      "options": ["Data collection", "Security", "Research funding", "Publication"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "char-17",
+      "type": "fill_blanks",
+      "question": "An impactful researcher with _____ is willing to push through boundaries of security and take risks of failure and rejection.",
+      "answers": ["courage"]
+    },
+    {
+      "id": "char-18",
+      "question": "Which characteristic requires a researcher to be open to criticisms, healthy discussions, and exchange of ideas?",
+      "options": ["Intellectual Honesty", "Perseverance", "Open-mindedness", "Prudence"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "char-19",
+      "question": "An intelligent researcher who is open to criticisms and healthy discussions demonstrates:",
+      "options": ["Courage", "Open-mindedness", "Curiosity", "Creativity"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "char-20",
+      "question": "Open-mindedness includes being open to all of the following EXCEPT:",
+      "options": ["Criticisms", "Healthy discussions", "Exchange of ideas", "Biased opinions"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "char-21",
+      "type": "fill_blanks",
+      "question": "An intelligent researcher with _____ is open to criticisms, healthy discussions, and exchange of ideas.",
+      "answers": ["open-mindedness"]
+    },
+    {
+      "id": "char-22",
+      "question": "Which characteristic involves being meticulous in collecting data and facts to arrive at honest conclusions?",
+      "options": ["Prudence", "Perseverance", "Intellectual Honesty", "Curiosity"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "char-23",
+      "question": "A responsible researcher who is meticulous in collecting data and facts to arrive at honest conclusions demonstrates:",
+      "options": ["Intellectual Honesty", "Creativity", "Courage", "Open-mindedness"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "char-24",
+      "question": "Intellectual Honesty requires a researcher to be meticulous in:",
+      "options": ["Formulating hypotheses", "Collecting data and facts", "Publishing results", "Securing funding"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "char-25",
+      "type": "fill_blanks",
+      "question": "A responsible researcher with intellectual honesty is _____ in collecting data and facts to arrive at honest conclusions.",
+      "answers": ["meticulous"]
+    },
+    {
+      "id": "char-26",
+      "question": "Which characteristic is described as a research-oriented researcher who undertakes deep thinking and inquiry on the nature of observations and phenomena?",
+      "type": "identification",
+      "answer": "Curiosity"
+    },
+    {
+      "id": "char-27",
+      "question": "Which characteristic describes a researcher who is analytical and logical in conducting research wisely and economically?",
+      "type": "identification",
+      "answer": "Prudence"
+    },
+    {
+      "id": "char-28",
+      "question": "Which characteristic allows a researcher to find new research topics, problems, solutions, and perspectives that may expand or replace established ones?",
+      "type": "identification",
+      "answer": "Creativity"
+    },
+    {
+      "id": "char-29",
+      "question": "A researcher who is willing to push through boundaries of security and take risks of failure and rejection possesses which characteristic?",
+      "type": "identification",
+      "answer": "Courage"
+    },
+    {
+      "id": "char-30",
+      "question": "A researcher who is meticulous in collecting data and facts to arrive at honest conclusions possesses which characteristic?",
+      "type": "identification",
+      "answer": "Intellectual Honesty"
+    }
+  ]
+}

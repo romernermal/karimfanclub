@@ -1,0 +1,286 @@
+{
+  "title": "What is Research? - Comprehensive Quiz",
+  "testType": "mcq",
+  "questions": [
+    {
+      "id": "res-01",
+      "question": "Research is defined as the scientific investigation of phenomena which includes collection, presentation, analysis, and interpretation of facts that lines an individual's speculation with:",
+      "options": ["Theory", "Reality", "Hypothesis", "Data"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-02",
+      "question": "The word 'research' comes from which French word that means 'seek'?",
+      "options": ["Cerhier", "Chercher", "Recherche", "Cerche"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "res-03",
+      "question": "The prefix 're' in research means:",
+      "options": ["Again", "Repeat", "Reverse", "Remove"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-04",
+      "type": "fill_blanks",
+      "question": "Literally, research is to _____ looking for something.",
+      "answers": ["repeat"]
+    },
+    {
+      "id": "res-05",
+      "question": "Inquiry is defined as 'a seeking for truth, information or:",
+      "options": ["Data", "Facts", "Knowledge", "Evidence"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "res-06",
+      "question": "Research is a process of:",
+      "options": ["Questioning", "Inquiring", "Observing", "Experimenting"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-07",
+      "question": "Research is also described as a:",
+      "options": ["Teaching technique", "Problem-solving technique", "Communication tool", "Marketing strategy"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-08",
+      "question": "Which of the following is NOT mentioned as an activity involved in research?",
+      "options": [
+        "Looking for and into something",
+        "Comparing and contrasting",
+        "Memorizing facts",
+        "Searching for more information"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "res-09",
+      "question": "Research involves finding what people think and:",
+      "options": ["Want", "Need", "Feel", "Believe"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "res-10",
+      "question": "According to the PDF, the modern gadgets we use today, the medicines that give us relief, and the tools that make our tasks easier are all products of:",
+      "options": ["Technology alone", "Research conducted by professionals", "Government funding", "Accidental discoveries"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-11",
+      "question": "Which of the following is one of the purposes of research?",
+      "options": [
+        "To entertain the public",
+        "To inform action",
+        "To create confusion",
+        "To ignore facts"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-12",
+      "question": "Research aims to prove or generate a:",
+      "options": ["Question", "Theory", "Opinion", "Myth"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-13",
+      "question": "Research helps to augment knowledge in a field or:",
+      "options": ["Practice", "Study", "Industry", "Community"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-14",
+      "type": "fill_blanks",
+      "question": "The three purposes of research are: 1. To inform _____, 2. To prove or generate a theory, 3. To augment knowledge in a field or study.",
+      "answers": ["action"]
+    },
+    {
+      "id": "res-15",
+      "type": "fill_blanks",
+      "question": "The three purposes of research are: To inform action, to prove or generate a _____, and to augment knowledge in a field or study.",
+      "answers": ["theory"]
+    },
+    {
+      "id": "res-16",
+      "question": "Research directs us to inquire about the right information by conducting further investigation of the:",
+      "options": ["Hypothesis", "Actual condition", "Research question", "Data set"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-17",
+      "question": "Research leads us to be cautious in giving results and findings by proving lies and supporting the:",
+      "options": ["Data", "Truth", "Theory", "Evidence"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-18",
+      "question": "According to a 2023 study, air pollution in South Asia cuts life expectancy by about how many years?",
+      "options": ["2 years", "3 years", "5 years", "10 years"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "res-19",
+      "question": "According to the 2023 study, what percentage of life years lost globally due to air pollution comes from countries in Asia and Africa?",
+      "options": ["72.7%", "82.7%", "92.7%", "97.7%"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "res-20",
+      "question": "The 2023 study on air pollution blames the high levels of pollution in some countries on a lack of:",
+      "options": ["Public awareness", "Adequate infrastructure and funding", "Government policies", "International cooperation"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-21",
+      "question": "Research empowers us with knowledge and discovers new things and issues in:",
+      "options": ["Only science", "Only business", "Life", "Only technology"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "res-22",
+      "question": "Research helps us solve problems in all of the following areas EXCEPT:",
+      "options": ["Health", "Crimes", "Business and technology", "Astrology"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "res-23",
+      "question": "According to a report by the science journal Nature, roughly how many tons of plastic make their way into the oceans every year?",
+      "options": ["14 million tons", "20 million tons", "29 million tons", "40 million tons"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "res-24",
+      "question": "According to Nature's research, if no action is taken, the plastic crisis will grow to how many metric tons per year by 2040?",
+      "options": ["14 million", "20 million", "29 million", "35 million"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "res-25",
+      "question": "If microplastics are included, the cumulative amount of plastic in the ocean could reach how many tons by 2040?",
+      "options": ["300 million tons", "400 million tons", "600 million tons", "800 million tons"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "res-26",
+      "question": "Research facilitates learning as an opportunity to share valuable information to others as a way of recognizing various concerns for:",
+      "options": ["Public awareness", "Private gain", "Personal benefit", "Entertainment"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "res-27",
+      "question": "The importance of research in daily life includes:",
+      "options": [
+        "Directing us to inquire about the right information",
+        "Empowering us with knowledge",
+        "Facilitating learning and public awareness",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "res-28",
+      "type": "fill_blanks",
+      "question": "Research involves the collection, presentation, analysis, and _____ of facts.",
+      "answers": ["interpretation"]
+    },
+    {
+      "id": "res-29",
+      "type": "fill_blanks",
+      "question": "Inquiry is defined as 'a seeking for truth, information or _____'.",
+      "answers": ["knowledge"]
+    },
+    {
+      "id": "res-30",
+      "question": "The French word 'cerhier' from which research is derived means:",
+      "options": ["Study", "Seek", "Search", "Investigate"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-31",
+      "question": "Research lines an individual's speculation with:",
+      "options": ["Opinion", "Reality", "Imagination", "Belief"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-32",
+      "question": "Which of the following is an example of a product of research mentioned in the PDF?",
+      "options": [
+        "Modern gadgets",
+        "Medicines",
+        "Tools and equipment",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "res-33",
+      "question": "Research leads us to be cautious in giving results and findings by:",
+      "options": [
+        "Ignoring contradictory evidence",
+        "Proving lies and supporting the truth",
+        "Relying on intuition",
+        "Avoiding data collection"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-34",
+      "type": "fill_blanks",
+      "question": "According to the 2023 study, most countries in Asia and Africa lack key _____ standards needed to develop adequate policies to address air pollution.",
+      "answers": ["air quality"]
+    },
+    {
+      "id": "res-35",
+      "question": "The plastic crisis research found that plastic harms wildlife habitats and the animals that live:",
+      "options": ["On land", "In them", "Near them", "In the air"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-36",
+      "question": "Research empowers us with knowledge and discovers new things and issues in life. It helps us solve problems in:",
+      "options": [
+        "Health, crimes, business, technology, and environment",
+        "Only health and environment",
+        "Only business and technology",
+        "Only crimes and health"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "res-37",
+      "type": "fill_blanks",
+      "question": "Research is defined as the scientific investigation of _____.",
+      "answers": ["phenomena"]
+    },
+    {
+      "id": "res-38",
+      "question": "The prefix 're' in research means repeat, and 'chercher' means seek, so literally research means to:",
+      "options": [
+        "Seek once",
+        "Repeatedly seek",
+        "Ignore questions",
+        "Stop looking"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-39",
+      "question": "Research directs us to inquire about the right information by conducting further investigation of the actual condition. This helps us to be:",
+      "options": [
+        "Careless with findings",
+        "Cautious with results and findings",
+        "Indifferent to facts",
+        "Rely solely on assumptions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "res-40",
+      "question": "According to the PDF, research is an opportunity to share valuable information to others as a way of recognizing various concerns for:",
+      "options": ["Entertainment", "Public awareness", "Personal satisfaction", "Commercial gain"],
+      "correctAnswer": 1
+    }
+  ]
+}

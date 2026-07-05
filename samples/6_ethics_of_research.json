@@ -1,0 +1,291 @@
+{
+  "title": "The Ethics of Research - Comprehensive Quiz",
+  "testType": "mcq",
+  "questions": [
+    {
+      "id": "eth-01",
+      "question": "What drives research should be our desire to benefit ________, not just our own success.",
+      "type": "fill_blanks",
+      "answers": ["humanity"]
+    },
+    {
+      "id": "eth-02",
+      "question": "Research ethics are guidelines for the responsible conduct of research which educates and monitors researchers to ensure:",
+      "options": [
+        "High standard",
+        "Quick results",
+        "Personal success",
+        "Financial gain"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "eth-03",
+      "question": "Research ethics promotes the aim of research, such as expanding:",
+      "options": [
+        "Financial resources",
+        "Knowledge",
+        "Personal reputation",
+        "Publication records"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "eth-04",
+      "question": "Which ethical principle requires informing participants about the criteria set for choosing them and that participation will be completely voluntary?",
+      "options": [
+        "Honesty",
+        "Objectivity",
+        "Informed Consent",
+        "Integrity"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "eth-05",
+      "question": "The principle of ________ requires being truthful in all scientific communications and not misleading colleagues, research sponsors, or the public.",
+      "type": "fill_blanks",
+      "answers": ["Honesty"]
+    },
+    {
+      "id": "eth-06",
+      "question": "Which ethical principle requires avoiding bias and maintaining objectivity in all parts and steps of the research?",
+      "options": [
+        "Honesty",
+        "Objectivity",
+        "Integrity",
+        "Openness"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "eth-07",
+      "question": "What should be disclosed if it may affect your research according to the principle of Objectivity?",
+      "options": [
+        "Research methodology",
+        "Conflicts of personal or financial interest",
+        "Research timeline",
+        "Expected outcomes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "eth-08",
+      "question": "The principle of ________ requires fulfilling and adhering to your promises and agreements, and being consistent with your thoughts and actions.",
+      "type": "fill_blanks",
+      "answers": ["Integrity"]
+    },
+    {
+      "id": "eth-09",
+      "question": "Which ethical principle states that you should never plagiarize or 'copy-and-paste' other authors' work for your own?",
+      "options": [
+        "Integrity",
+        "Respect for Intellectual Property",
+        "Openness",
+        "Competence"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "eth-10",
+      "question": "Respect for Intellectual Property requires honoring all forms of intellectual property rights, including:",
+      "options": [
+        "Patents and copyrights",
+        "Research data only",
+        "Publication fees",
+        "Research grants"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "eth-11",
+      "question": "Which ethical principle involves practicing responsible sharing of data, results, ideas, and resources?",
+      "options": [
+        "Confidentiality",
+        "Openness",
+        "Social Responsibility",
+        "Legality"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "eth-12",
+      "question": "The principle of ________ requires preserving confidentiality agreements and not disclosing confidential information such as papers submitted for publication.",
+      "type": "fill_blanks",
+      "answers": ["Confidentiality"]
+    },
+    {
+      "id": "eth-13",
+      "question": "Which ethical principle requires conducting research with social and environmental welfare, safety, and protection in mind?",
+      "options": [
+        "Non-discrimination",
+        "Legality",
+        "Social Responsibility",
+        "Carefulness"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "eth-14",
+      "question": "The principle of ________ states that you should not discriminate against anyone based on gender, race, ethnicity, etc.",
+      "type": "fill_blanks",
+      "answers": ["Non-discrimination"]
+    },
+    {
+      "id": "eth-15",
+      "question": "Which ethical principle requires understanding and not violating laws and government policies?",
+      "options": [
+        "Integrity",
+        "Legality",
+        "Social Responsibility",
+        "Competence"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "eth-16",
+      "question": "Human Subject Protection requires respecting and protecting the welfare, interest, privacy, dignity, and ________ of human subjects.",
+      "options": [
+        "Autonomy",
+        "Financial status",
+        "Educational background",
+        "Employment"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "eth-17",
+      "question": "Which vulnerable populations are mentioned as needing special precautions in Human Subject Protection?",
+      "options": [
+        "Adults and elderly",
+        "Children and minors",
+        "Healthcare workers",
+        "Government officials"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "eth-18",
+      "question": "Animal Care requires being responsible and humane when using animals for research. What should NOT be performed?",
+      "options": [
+        "Scientifically relevant experiments",
+        "Scientifically irrelevant or poorly designed experiments",
+        "Experiments with proper care",
+        "Experiments with ethical approval"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "eth-19",
+      "question": "Which ethical principle states that research results should be published to improve knowledge and solve problems for the benefit of society?",
+      "options": [
+        "Responsible Publication",
+        "Responsible Mentoring",
+        "Respect for Colleagues",
+        "Carefulness"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "eth-20",
+      "question": "Responsible Publication requires publishing research results for the benefit of society, not to fulfill ________ or just to advance your own career.",
+      "type": "fill_blanks",
+      "answers": ["self-interests"]
+    },
+    {
+      "id": "eth-21",
+      "question": "Which ethical principle involves helping to educate, mentor, and advise others, and promoting their welfare?",
+      "options": [
+        "Responsible Publication",
+        "Responsible Mentoring",
+        "Respect for Colleagues",
+        "Carefulness"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "eth-22",
+      "question": "The principle of ________ requires always respecting colleagues and treating them fairly.",
+      "type": "fill_blanks",
+      "answers": ["Respect for Colleagues"]
+    },
+    {
+      "id": "eth-23",
+      "question": "Which ethical principle requires avoiding careless errors and negligence, and carefully examining your work and the work of peers?",
+      "options": [
+        "Competence",
+        "Carefulness",
+        "Integrity",
+        "Openness"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "eth-24",
+      "question": "The principle of Carefulness requires keeping good records of:",
+      "options": [
+        "Personal expenses",
+        "Research activities",
+        "Social media activities",
+        "Travel logs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "eth-25",
+      "question": "Which ethical principle requires maintaining and improving professional competence and expertise through lifelong education and learning?",
+      "options": [
+        "Competence",
+        "Carefulness",
+        "Integrity",
+        "Honesty"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "eth-26",
+      "question": "According to the PDF, how many ethical principles are discussed?",
+      "options": ["10", "13", "15", "17"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "eth-27",
+      "question": "Which of the following is NOT one of the learning objectives stated in the PDF?",
+      "options": [
+        "To understand ethics in higher studies",
+        "To comprehend the principle of being a true scholar",
+        "To appreciate the value of intellectual and moral honesty",
+        "To learn how to publish research quickly"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "eth-28",
+      "question": "The principle of Honesty requires NEVER doing which of the following?",
+      "options": [
+        "Reporting data accurately",
+        "Fabricating, falsifying, or misinterpreting data",
+        "Disclosing conflicts of interest",
+        "Being truthful in communications"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "eth-29",
+      "question": "Informed Consent requires informing participants about the schedule of:",
+      "options": [
+        "Data analysis",
+        "One-on-one interview at their convenient time",
+        "Publication dates",
+        "Research funding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "eth-30",
+      "question": "The principle of ________ requires observing precautions to protect vulnerable populations and studying international standards of ethical practice.",
+      "type": "fill_blanks",
+      "answers": ["Human Subject Protection"]
+    }
+  ]
+}

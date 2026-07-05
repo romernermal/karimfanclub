@@ -1,0 +1,266 @@
+{
+  "title": "Writing a Research Title - Comprehensive Quiz",
+  "testType": "mcq",
+  "questions": [
+    {
+      "id": "title-01",
+      "question": "What is the most important element that defines the research problem?",
+      "options": ["Research methodology", "Research title", "Research abstract", "Research conclusion"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-02",
+      "question": "Which part of the research is usually read first and is the most read part?",
+      "options": ["Abstract", "Introduction", "Research title", "Conclusion"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "title-03",
+      "question": "A research title contains the least words enough to describe the contents and the ______ of your research paper.",
+      "options": ["Methodology", "Purpose", "Results", "Conclusion"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-04",
+      "question": "A research title can be revised any and many times as the research develops and reaches its final phase. It becomes final on its:",
+      "options": ["Initial proposal", "Final defence before the panel of judges", "Data collection phase", "Publication"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-05",
+      "question": "A research title should be ______ rather than entertaining.",
+      "options": ["Creative", "Informative", "Humorous", "Vague"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-06",
+      "question": "Which factor in choosing a research topic involves being interested because you have experienced it?",
+      "options": ["Availability of information", "Timeliness and relevance", "Interest in the subject matter", "Limitations on the subject"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "title-07",
+      "question": "When deciding on a topic, it is important that sources of information are available. This refers to:",
+      "options": ["Interest in the subject matter", "Availability of information", "Timeliness and relevance", "Personal resources"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-08",
+      "question": "A topic that is significant to the community demonstrates:",
+      "options": ["Interest in the subject matter", "Availability of information", "Timeliness and relevance", "Personal resources"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "title-09",
+      "question": "Which factor limits a topic to what the teacher suggests, such as focusing only on the COVID-19 pandemic?",
+      "options": ["Interest in the subject matter", "Availability of information", "Timeliness and relevance", "Limitations on the subject"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "title-10",
+      "type": "fill_blanks",
+      "question": "Personal resources in choosing a topic include considering if you can finish the research in terms of your _____ and financial physical capabilities.",
+      "answers": ["intellectual"]
+    },
+    {
+      "id": "title-11",
+      "question": "Which of the following topics should be avoided in research?",
+      "options": ["Timely topics", "Controversial topics", "Interesting topics", "Relevant topics"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-12",
+      "question": "Highly opinionated topics fall under which type of topic to avoid?",
+      "options": ["Highly technical subjects", "Controversial topics", "Too broad subjects", "Vague subjects"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-13",
+      "question": "A topic that requires expertise should be avoided if you don't have enough knowledge about it. This is a:",
+      "options": ["Controversial topic", "Highly technical subject", "Too narrow subject", "Vague subject"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-14",
+      "question": "Unavailability of reading materials and materials that are not updated make the subject:",
+      "options": ["Hard-to-investigate", "Too broad", "Too narrow", "Controversial"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "title-15",
+      "question": "The remedy for a topic that is too broad is to:",
+      "options": ["Expand it further", "Narrow it down", "Change it completely", "Make it more general"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-16",
+      "question": "Some subjects are too narrow that extensive and thorough reading are required. This describes:",
+      "options": ["Too broad subjects", "Too narrow subjects", "Vague subjects", "Controversial topics"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-17",
+      "question": "Titles that start with indefinite adjectives such as 'several,' 'many,' and 'some' make the topic:",
+      "options": ["Too broad", "Too narrow", "Vague", "Controversial"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "title-18",
+      "type": "fill_blanks",
+      "question": "Controversial topics are _____ opinionated topics that should be avoided in research.",
+      "answers": ["highly"]
+    },
+    {
+      "id": "title-19",
+      "question": "According to the examples, which area of research includes magazines, journals, social media, books, and newspapers as sources?",
+      "options": ["Social Networking", "Wide Reading/Critical Film Viewing", "Social Problems", "Replication of research"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "title-20",
+      "question": "The topic 'Cyberbullying and coping mechanisms among senior high school students' falls under which possible area of research?",
+      "options": ["Social Networking", "Wide Reading/Critical Film Viewing", "Social Problems", "Gray Areas about issues"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "title-21",
+      "question": "The topic 'SONA as information campaign of the President's programs and projects' falls under which possible area of research?",
+      "options": ["Social Problems", "Wide Reading/Critical Film Viewing", "Social Networking", "Replication of research"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-22",
+      "question": "The topic 'Functionality of social media among students during the pandemic' falls under which possible area of research?",
+      "options": ["Social Problems", "Wide Reading/Critical Film Viewing", "Social Networking", "Replication of research"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "title-23",
+      "question": "The topic 'Inadequacies of private schools in the K to 12 implementations' falls under which possible area of research?",
+      "options": ["Social Problems", "Wide Reading/Critical Film Viewing", "Social Networking", "Replication of research"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "title-24",
+      "question": "The topic 'The fallacy about COVID-19 vaccines' falls under which possible area of research?",
+      "options": ["Social Problems", "Wide Reading/Critical Film Viewing", "Social Networking", "Gray Areas about issues"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "title-25",
+      "question": "One way to narrow down a topic is by exploring and extending the explanation of a:",
+      "options": ["Hypothesis", "Theory", "Research question", "Conclusion"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-26",
+      "question": "One way to narrow down a topic is to talk over ideas with people who know:",
+      "options": ["Research", "Writing", "Statistics", "Psychology"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "title-27",
+      "question": "One way to narrow down a topic is to focus on a specific:",
+      "options": ["Area", "Group", "Theory", "Method"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-28",
+      "type": "fill_blanks",
+      "question": "When narrowing a topic, you should define the aim or desired _____ of the study.",
+      "answers": ["outcome"]
+    },
+    {
+      "id": "title-29",
+      "question": "Which type of study is exploratory, explanatory, or descriptive? This is part of defining the aim or outcome of the study.",
+      "options": ["Applied or basic", "Study type", "Research design", "Data collection"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "title-30",
+      "question": "Which of the following is an important question to ask when choosing a research topic?",
+      "options": [
+        "Is my research useful to me, to my school, to my family, and to my community?",
+        "Will my research be published?",
+        "Will my research be easy?",
+        "Will my research be popular?"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "title-31",
+      "question": "A research study must be significant enough to make it worth your efforts as the researcher. This emphasizes the importance of:",
+      "options": ["Availability of information", "Personal resources", "Significance", "Timeliness"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "title-32",
+      "question": "The general concept 'Early Pregnancy' when narrowed down to 'Prevention of Early Pregnancy among Senior High School Students' is an example of:",
+      "options": ["Broadening a topic", "Narrowing a topic", "Changing a topic", "Avoiding a topic"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-33",
+      "type": "fill_blanks",
+      "question": "A research title _____ the main thought or idea of the whole research paper.",
+      "answers": ["capsulizes"]
+    },
+    {
+      "id": "title-34",
+      "question": "A research title reflects the ______ under study.",
+      "options": ["Methods", "Variables", "Results", "Conclusions"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-35",
+      "question": "A research title is expressed in few words possible and just enough to describe the:",
+      "options": ["Methodology", "Results", "Contents and purpose", "Conclusion"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "title-36",
+      "type": "fill_blanks",
+      "question": "A research title contains: What (subject matter), Where (place or locale), and _____ (participants or respondents).",
+      "answers": ["Who"]
+    },
+    {
+      "id": "title-37",
+      "question": "In the title 'Study Habits of Senior High School Students in Public Schools of Bukidnon,' the 'what' is:",
+      "options": ["Public Schools", "Bukidnon", "Study Habits", "Senior High School Students"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "title-38",
+      "question": "In the title 'The Correlation Between Later School Start Times and High School Athletes' Athletic Performances,' which is the independent variable?",
+      "options": [
+        "High school athletes' athletic performances",
+        "Later school start times",
+        "The school",
+        "The athletes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-39",
+      "question": "In the title 'The Correlation Between Later School Start Times and High School Athletes' Athletic Performances,' which is the dependent variable?",
+      "options": [
+        "Later school start times",
+        "High school athletes' athletic performances",
+        "The school start time",
+        "The correlation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "title-40",
+      "question": "In the title 'The Relationship Between Social Media and the Affective and Cognitive Behaviors of Grade 12 STEM Students,' the independent variable is:",
+      "options": [
+        "Affective and cognitive behaviors",
+        "Grade 12 STEM Students",
+        "Social Media",
+        "The relationship"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

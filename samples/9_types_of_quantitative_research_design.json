@@ -1,0 +1,396 @@
+{
+  "title": "Types of Quantitative Research Design - Comprehensive Quiz",
+  "testType": "mcq",
+  "questions": [
+    {
+      "id": "qrd-01",
+      "question": "When little is known about the research problem, which research design is most appropriate to use?",
+      "options": [
+        "Correlational Research",
+        "Descriptive Research",
+        "Experimental Research",
+        "Quasi-Experimental Research"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-02",
+      "question": "Descriptive research is exploratory in nature and answers questions such as:",
+      "options": [
+        "Why and how",
+        "Who, what, where, when, and how much",
+        "Cause and effect",
+        "Relationship between variables"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-03",
+      "question": "Descriptive research is useful when the research aim is to identify characteristics, frequencies, trends, and:",
+      "options": ["Causes", "Categories", "Effects", "Relationships"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-04",
+      "question": "Which of the following is an example of a descriptive research question?",
+      "options": [
+        "Is there a relationship between technology use and mental health?",
+        "What are the most popular online news sources among under-18s?",
+        "Does social media use affect adolescent self-esteem?",
+        "What is the effect of giving daily quizzes on student performance?"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-05",
+      "question": "Correlational research seeks to determine if two variables are related or if there is:",
+      "options": [
+        "A cause and effect relationship",
+        "No correlation between them",
+        "A significant difference",
+        "An experimental effect"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-06",
+      "question": "Correlational research can take several forms, including direct observation and fieldwork, use of archival data, and:",
+      "options": ["Experiments", "Surveys only", "Interviews", "Case studies"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-07",
+      "question": "Correlational research only observes naturally occurring variables without:",
+      "options": [
+        "Measuring any variables",
+        "Manipulating any variables",
+        "Analyzing data",
+        "Reporting findings"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-08",
+      "question": "The main goal of correlational research is to determine if a variable increases or decreases as:",
+      "options": [
+        "The study progresses",
+        "Another variable increases or decreases",
+        "Time passes",
+        "The sample size changes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-09",
+      "question": "Correlational research does NOT seek which type of relationship?",
+      "options": [
+        "Association between variables",
+        "Cause and effect",
+        "Presence or absence of relationships",
+        "Correlation"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-10",
+      "question": "Correlational research has two major purposes: (a) to clarify the relationship between variables and (b) to:",
+      "options": [
+        "Establish causation",
+        "Predict the magnitude of the association",
+        "Manipulate variables",
+        "Control extraneous variables"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-11",
+      "question": "Which research design looks at existing conditions and works backwards to identify relationships or causal factors?",
+      "options": [
+        "Descriptive Research",
+        "Correlational Research",
+        "Ex Post Facto Research",
+        "Experimental Research"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "qrd-12",
+      "question": "The term 'Ex Post Facto' means:",
+      "options": [
+        "Before the fact",
+        "After the fact",
+        "During the fact",
+        "Without the fact"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-13",
+      "question": "Ex post facto research is also known as:",
+      "options": [
+        "Correlational Research",
+        "Causal Comparative Research",
+        "Descriptive Research",
+        "True Experimental Research"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-14",
+      "question": "In ex post facto research, the variables of interest have already occurred and their effects are being studied:",
+      "options": [
+        "In real-time",
+        "After the fact",
+        "Before they occur",
+        "During the experiment"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-15",
+      "question": "Which research design suggests a non-manipulative approach where variables have already occurred?",
+      "options": [
+        "Experimental Research",
+        "Quasi-Experimental Research",
+        "Ex Post Facto Research",
+        "Descriptive Research"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "qrd-16",
+      "question": "The prefix 'quasi' means:",
+      "options": ["True", "Resembling", "False", "Complete"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-17",
+      "question": "Quasi-experimental research resembles experimental research but is NOT:",
+      "options": [
+        "True experimental research",
+        "Valid",
+        "Reliable",
+        "Quantitative"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "qrd-18",
+      "question": "Quasi-experimental research aims to measure the causal relationship between variables. The effect measured is considered to have occurred:",
+      "options": [
+        "Before the study",
+        "During the conduct of the current study",
+        "After the study",
+        "Without any intervention"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-19",
+      "question": "In quasi-experimental research, the groups are known to be already established before the study, such as age, educational background, and:",
+      "options": ["Gender", "Nationality", "Socioeconomic status", "Blood type"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-20",
+      "question": "Quasi-experimental methods do NOT include which key feature of true experiments?",
+      "options": [
+        "Control group",
+        "Treatment group",
+        "Random assignment of participants",
+        "Measuring outcomes"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "qrd-21",
+      "question": "Which of the following is an example of quasi-experimental research?",
+      "options": [
+        "Randomly assigning plants to sunlight and dark conditions",
+        "Comparing non-smokers to smokers (traits that cannot be randomly assigned)",
+        "A/B testing two versions of a software interface",
+        "Testing different advertising messages on random participants"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-22",
+      "question": "Experimental research is also known as:",
+      "options": [
+        "True experimental design",
+        "Quasi-experimental design",
+        "Correlational design",
+        "Descriptive design"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "qrd-23",
+      "question": "Experimental research is based on the scientific method called experiment, which involves gathering data under a:",
+      "options": [
+        "Natural setting",
+        "Controlled or manipulated environment",
+        "Observational setting",
+        "Retrospective setting"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-24",
+      "question": "In experimental research, random assignment of subjects into treatment and control groups increases the:",
+      "options": [
+        "Complexity of the study",
+        "Validity of the study",
+        "Cost of the study",
+        "Duration of the study"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-25",
+      "question": "Experimental research attempts to affect a certain variable by directly manipulating the:",
+      "options": [
+        "Dependent variable",
+        "Independent variable",
+        "Extraneous variable",
+        "Confounding variable"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-26",
+      "question": "Which of the following is an example of experimental research?",
+      "options": [
+        "Studying a specific classroom of students to determine learning outcomes",
+        "A researcher randomly assigns half the plant samples to sunlight and half to a dark box",
+        "Comparing the impact of social media on adolescent self-esteem after the fact",
+        "Determining if there is a relationship between life expectancy and paint color"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-27",
+      "question": "A Software as a Service (SaaS) company conducting A/B tests to compare two versions of its software interface is an example of:",
+      "options": [
+        "Descriptive Research",
+        "Correlational Research",
+        "Ex Post Facto Research",
+        "Experimental Research"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "qrd-28",
+      "question": "The treatment group refers to the group subjected to treatment or intervention, while the group not subjected is called the:",
+      "options": ["Experimental group", "Control group", "Sample group", "Population group"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-29",
+      "question": "How many mistakes to avoid while designing research are listed in the PDF?",
+      "options": ["4", "5", "6", "7"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "qrd-30",
+      "question": "According to the 'Mistakes to Avoid,' researchers often miss out on checking if their hypothesis is logical to be tested. This refers to:",
+      "options": [
+        "Undefined Research Problem",
+        "Invalid Theoretical Framework",
+        "Inadequate Related Literature Study",
+        "Research Limitations"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-31",
+      "question": "Without a comprehensive research literature review, it is difficult to identify and fill knowledge and information gaps. This refers to:",
+      "options": [
+        "Invalid Theoretical Framework",
+        "Inadequate Related Literature Study",
+        "Undefined Research Problem",
+        "Insufficient Statistical Analysis"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-32",
+      "question": "Incorrect statistical analysis could affect the quality of any quantitative research. This refers to:",
+      "options": [
+        "Research Limitations",
+        "Ethical Implications",
+        "Insufficient or Incorrect Statistical Analysis",
+        "Undefined Research Problem"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "qrd-33",
+      "question": "The research problem statement must be clear and set the framework for the development of research questions. This refers to avoiding:",
+      "options": [
+        "Undefined Research Problem",
+        "Invalid Theoretical Framework",
+        "Inadequate Literature Study",
+        "Research Limitations"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "qrd-34",
+      "question": "You should anticipate and incorporate limitations into your conclusion as well as the basic research design. This refers to:",
+      "options": [
+        "Ethical Implications",
+        "Research Limitations",
+        "Incorrect Statistical Analysis",
+        "Undefined Research Problem"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-35",
+      "question": "Your research design must include ways to minimize any risk for your participants. This refers to:",
+      "options": [
+        "Research Limitations",
+        "Statistical Analysis",
+        "Ethical Implications",
+        "Literature Review"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "qrd-36",
+      "question": "If you cannot manage ethical norms along with your research study, your research objectives and validity could be questioned. This refers to:",
+      "options": [
+        "Research Limitations",
+        "Ethical Implications",
+        "Undefined Research Problem",
+        "Invalid Framework"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "qrd-37",
+      "type": "fill_blanks",
+      "question": "The four types of quantitative research designs mentioned that are NOT experimental include: Descriptive, Correlational, _____, and Quasi-Experimental.",
+      "answers": ["Ex Post Facto"]
+    },
+    {
+      "id": "qrd-38",
+      "type": "fill_blanks",
+      "question": "The two types of quantitative research designs that are identifiable for the existence of treatment or intervention are Quasi-Experimental and _____.",
+      "answers": ["Experimental"]
+    },
+    {
+      "id": "qrd-39",
+      "question": "Which research design uses random sampling and random assignment to create a control group and an experimental group?",
+      "type": "identification",
+      "answer": "Experimental Research"
+    },
+    {
+      "id": "qrd-40",
+      "question": "Which research design is appropriate when the main objective is just to observe and report a phenomenon as it is happening?",
+      "type": "identification",
+      "answer": "Descriptive Research"
+    }
+  ]
+}

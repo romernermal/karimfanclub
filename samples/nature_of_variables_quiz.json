@@ -1,0 +1,193 @@
+{
+  "title": "The Nature of Variables - Scenario-Based Quiz",
+  "testType": "mcq",
+  "questions": [
+    {
+      "id": "var-01",
+      "question": "In Scenario 1 (BioGrow experiment), what is the INDEPENDENT variable?",
+      "options": [
+        "The growth rate of the plants",
+        "The concentration of the BioGrow solution",
+        "The number of plants in each greenhouse",
+        "The type of greenhouse used"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "var-02",
+      "question": "In Scenario 1 (BioGrow experiment), what is the DEPENDENT variable?",
+      "options": [
+        "The concentration of the BioGrow solution",
+        "The volume of water given daily",
+        "The growth rate (or height) of the plants",
+        "The initial height of the plants"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "var-03",
+      "question": "In Scenario 1 (BioGrow experiment), which of the following is an EXTRANEOUS variable?",
+      "options": [
+        "The concentration of BioGrow solution",
+        "The growth rate of the plants",
+        "Ambient temperature and humidity in the greenhouses",
+        "The volume of solution given daily"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "var-04",
+      "question": "In Scenario 2 (water hyacinth bioethanol experiment), what is the INDEPENDENT variable?",
+      "options": [
+        "The volume of bioethanol yielded",
+        "The amount of yeast (Saccharomyces cerevisiae)",
+        "The fermentation temperature",
+        "The pH level of the mash"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "var-05",
+      "question": "In Scenario 2 (water hyacinth bioethanol experiment), what is the DEPENDENT variable?",
+      "options": [
+        "The amount of yeast used",
+        "The fermentation temperature",
+        "The volume of bioethanol yielded",
+        "The pH level of the mash"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "var-06",
+      "question": "In Scenario 2 (water hyacinth bioethanol experiment), which of the following is an EXTRANEOUS variable?",
+      "options": [
+        "The amount of yeast (Saccharomyces cerevisiae)",
+        "The volume of bioethanol yielded",
+        "The fermentation temperature and pH level (controlled)",
+        "The initial moisture content of the water hyacinth pulp"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "var-07",
+      "question": "In Scenario 3 (phone charger experiment), what is the INDEPENDENT variable?",
+      "options": [
+        "The charging time of the phone",
+        "The charger and charging cable combination",
+        "The phone brand",
+        "The battery capacity"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "var-08",
+      "question": "In Scenario 3 (phone charger experiment), what is the DEPENDENT variable?",
+      "options": [
+        "The charger and charging cable combination",
+        "The phone brand",
+        "The charging time of the phone",
+        "The number of chargers tested"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "var-09",
+      "question": "In Scenario 3 (phone charger experiment), which of the following is an EXTRANEOUS variable?",
+      "options": [
+        "The charger and charging cable combination",
+        "The charging time",
+        "Applications currently used on the phone",
+        "The phone's screen size"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "var-10",
+      "question": "In Scenario 4 (solar panel experiment), what is the INDEPENDENT variable?",
+      "options": [
+        "The energy output (kWh) of the solar panels",
+        "The exposure to urban dust and air pollution (Array A vs. Array B environments)",
+        "The panel tilt angle",
+        "The type of solar panel used"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "var-11",
+      "question": "In Scenario 4 (solar panel experiment), what is the DEPENDENT variable?",
+      "options": [
+        "The exposure to urban dust and air pollution",
+        "The panel tilt angle",
+        "The energy output (kWh) of the solar panels",
+        "The solar irradiance"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "var-12",
+      "question": "In Scenario 4 (solar panel experiment), which of the following is an EXTRANEOUS variable?",
+      "options": [
+        "Array A vs. Array B environments",
+        "Energy output (kWh)",
+        "Panel tilt angle (controlled)",
+        "The color of the solar panels"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "var-13",
+      "question": "In Scenario 5 (TEG experiment), what is the INDEPENDENT variable?",
+      "options": [
+        "The voltage produced by the TEG",
+        "The temperature difference (ΔT) between the heat source and ambient air",
+        "The electrical conductivity of the mud",
+        "The type of mud used"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "var-14",
+      "question": "In Scenario 5 (TEG experiment), what is the DEPENDENT variable?",
+      "options": [
+        "The temperature difference (ΔT)",
+        "The electrical conductivity of the mud",
+        "The voltage produced by the TEG",
+        "The initial moisture content of the mud"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "var-15",
+      "question": "In Scenario 5 (TEG experiment), which of the following is an EXTRANEOUS variable?",
+      "options": [
+        "The temperature difference (ΔT)",
+        "The voltage produced",
+        "The electrical conductivity of the mud",
+        "The heat source used"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "var-16",
+      "question": "In Scenario 2 (water hyacinth bioethanol experiment), what was held completely constant by the researchers?",
+      "options": [
+        "The amount of yeast",
+        "The fermentation temperature and pH level",
+        "The volume of bioethanol",
+        "The type of water hyacinth"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "var-17",
+      "question": "In Scenario 5 (TEG experiment), what does TEG stand for?",
+      "options": [
+        "Thermal Energy Generator",
+        "Thermo-Electric Generator",
+        "Total Energy Grid",
+        "Thermal Electric Grid"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}
