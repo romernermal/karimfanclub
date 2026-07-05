@@ -22,8 +22,8 @@
       ]
     },
     {
-      "id": "mixed-examples",
-      "name": "Mixed Examples",
+      "id": "research",
+      "name": "Research",
       "tests": [
         { "id": "mixed-type-demo", "fileName": "Mixed_Example.json" }
       ]

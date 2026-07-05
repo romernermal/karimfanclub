@@ -111,19 +111,43 @@ const useQuizStore = create((set, get) => ({
   },
 
   async initSubjects() {
-    const stored = loadFromStorage('subjects')
-    if (stored) {
-      set({ subjects: stored })
-    } else {
-      try {
-        const res = await fetch(DEFAULT_SUBJECTS_URL)
-        const data = await res.json()
-        set({ subjects: data.subjects })
-        saveToStorage('subjects', data.subjects)
-      } catch {
-        set({ subjects: [] })
-      }
+    let defaults = []
+    try {
+      const res = await fetch(DEFAULT_SUBJECTS_URL)
+      const data = await res.json()
+      defaults = data.subjects || []
+    } catch {
+      // no default manifest available
     }
+
+    const stored = loadFromStorage('subjects')
+    let merged
+
+    if (stored) {
+      merged = [...stored]
+      for (const subject of defaults) {
+        const idx = merged.findIndex((s) => s.id === subject.id)
+        if (idx >= 0) {
+          const existingIds = merged[idx].tests.map((t) => t.id)
+          const newTests = subject.tests.filter(
+            (t) => !existingIds.includes(t.id)
+          )
+          if (newTests.length > 0) {
+            merged[idx] = {
+              ...merged[idx],
+              tests: [...merged[idx].tests, ...newTests],
+            }
+          }
+        } else {
+          merged.push(subject)
+        }
+      }
+    } else {
+      merged = defaults
+    }
+
+    set({ subjects: merged })
+    saveToStorage('subjects', merged)
 
     const cached = loadFromStorage('testsCache')
     if (cached) {
