@@ -73,7 +73,8 @@ const useQuizStore = create((set, get) => ({
 
     const effectiveIndex = questionOrder.length > 0 ? questionOrder[currentQuestionIndex] : currentQuestionIndex
     const question = test.questions[effectiveIndex]
-    const isCorrect = gradeAnswer(question, answer, test.testType)
+    const questionType = question.type || test.testType
+    const isCorrect = gradeAnswer(question, answer, questionType)
 
     const result = { questionId: question.id, answer, isCorrect }
     const newResults = [...get().userAnswers, result]

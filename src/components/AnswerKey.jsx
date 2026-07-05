@@ -17,7 +17,9 @@ export default function AnswerKey({ userAnswers, test }) {
         const userAnswerText =
           qType === 'mcq'
             ? question.options[item.answer]
-            : String(item.answer)
+            : qType === 'fill_blanks' && Array.isArray(item.answer)
+              ? item.answer.join(', ')
+              : String(item.answer)
 
         return (
           <div
