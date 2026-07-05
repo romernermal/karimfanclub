@@ -228,8 +228,8 @@ export default function Quiz() {
           {canSubmit() && (
             <button
               onClick={handleSubmit}
-              className="w-full p-4 rounded-xl bg-blue-600 text-white font-semibold text-base
-                active:bg-blue-700 transition-colors min-h-[52px]"
+              className="w-full p-4 rounded-xl bg-emerald-600 text-white font-semibold text-base
+                active:bg-emerald-700 transition-colors min-h-[52px]"
             >
               Submit Answer
             </button>
@@ -248,8 +248,8 @@ export default function Quiz() {
           {quizComplete && (
             <button
               onClick={handleViewResults}
-              className="w-full p-4 rounded-xl bg-blue-600 text-white font-semibold text-base
-                active:bg-blue-700 transition-colors min-h-[52px]"
+              className="w-full p-4 rounded-xl bg-violet-600 text-white font-semibold text-base
+                active:bg-violet-700 transition-colors min-h-[52px]"
             >
               See Results
             </button>
