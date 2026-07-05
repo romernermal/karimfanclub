@@ -1,0 +1,46 @@
+{
+  "title": "First Aid - Summative 1",
+  "testType": "mcq",
+  "questions": [
+    {
+      "id": "fa-q1",
+      "question": "What is the first step in treating a severe burn?",
+      "options": ["Apply ice", "Run cool water", "Apply butter", "Pop blisters"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-q2",
+      "question": "When performing CPR, what is the correct compression-to-breath ratio for an adult?",
+      "options": ["15:2", "30:2", "5:1", "10:2"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-q3",
+      "question": "What does RICE stand for in injury treatment?",
+      "options": [
+        "Rest, Ice, Compression, Elevation",
+        "Run, Ice, Compress, Evaluate",
+        "Rest, Immobilize, Cold, Exercise",
+        "Reach, Inspect, Clean, Elevate"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "fa-q4",
+      "question": "What is the universal sign for choking?",
+      "options": [
+        "Waving arms",
+        "Hands clutching the throat",
+        "Coughing loudly",
+        "Pointing to the mouth"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "fa-q5",
+      "question": "How deep should chest compressions be for an adult during CPR?",
+      "options": ["1 inch", "2 inches", "3 inches", "4 inches"],
+      "correctAnswer": 1
+    }
+  ]
+}

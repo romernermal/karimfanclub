@@ -1,0 +1,21 @@
+{
+  "title": "Physics - Summative 1",
+  "testType": "fill_blanks",
+  "questions": [
+    {
+      "id": "ph-q1",
+      "question": "An object at _____ stays at _____ unless acted upon by an external force.",
+      "answers": ["rest", "rest"]
+    },
+    {
+      "id": "ph-q2",
+      "question": "Force equals _____ times _____.",
+      "answers": ["mass", "acceleration"]
+    },
+    {
+      "id": "ph-q3",
+      "question": "For every _____, there is an equal and opposite _____.",
+      "answers": ["action", "reaction"]
+    }
+  ]
+}
