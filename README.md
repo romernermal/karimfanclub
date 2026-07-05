@@ -1,4 +1,4 @@
-# Quiz Practice
+# Karim Fan Club
 
 A mobile-first single-page quiz application built with React, Vite, Tailwind CSS, and Zustand. Supports multiple quiz modes (Normal, Friendly, No Mercy, Flashcards) and question types (MCQ, Identification, Fill-in-the-Blanks).
 
